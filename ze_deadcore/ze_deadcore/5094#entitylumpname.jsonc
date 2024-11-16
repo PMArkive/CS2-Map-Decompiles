@@ -6,6 +6,8 @@
     "hammerUniqueId": "3500",
     "targetname": "[PR#]c_escape_prop1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -47,7 +49,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]c_escape_move1&0000",
       "origin": "0.000000 0.900391 2576.000000",
-      "angles": "-0.000000 -89.999985 0.000000",
+      "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
     }
@@ -112,6 +114,8 @@
     "hammerUniqueId": "1896",
     "targetname": "[PR#]c_escape_move2&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "999999",
@@ -162,6 +166,8 @@
     "hammerUniqueId": "3502",
     "targetname": "[PR#]c_escape_temprelay1&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",

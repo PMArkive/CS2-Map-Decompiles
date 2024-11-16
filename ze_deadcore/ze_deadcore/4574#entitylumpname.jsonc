@@ -6,6 +6,7 @@
     "hammerUniqueId": "4571",
     "targetname": "[PR#]c_crystal_break1&0000",
     "properties": {
+      "NoInterpolate": "False",
       "physdamagescale": "1",
       "overrideBlockLOS": "0",
       "gamemass": "0",

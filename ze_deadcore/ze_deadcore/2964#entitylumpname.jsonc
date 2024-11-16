@@ -6,6 +6,8 @@
     "hammerUniqueId": "4533",
     "targetname": "[PR#]music_relay1",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",

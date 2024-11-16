@@ -6175,7 +6175,7 @@
           "spawnflags": "1",
           "StartDisabled": "True",
           "useLocalOffset": "False",
-          "origin": "-1367.000000 13949.500000 2235.000000",
+          "origin": "-1367.000000 15029.500000 1985.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000",
           "model": "maps\\ze_aepp_nano_grid2_p\\entities\\Nuke_All_267.vmdl"

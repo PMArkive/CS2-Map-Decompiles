@@ -6,6 +6,8 @@
     "hammerUniqueId": "2437",
     "targetname": "[PR#]escape_laser_prop1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -56,6 +58,8 @@
     "hammerUniqueId": "2534",
     "targetname": "[PR#]escape_laser_prop1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -153,6 +157,8 @@
     "hammerUniqueId": "2435",
     "targetname": "[PR#]escape_laser_movebase1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "999999",
@@ -219,103 +225,15 @@
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_deadcore\\entities\\escape_laser_hurt1_3849.vmdl",
       "_template_lump_ent_index": "4"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.2,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.6,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.8,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.2,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.6,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.8,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 2,
-        "limit": -1
-      }
-    ]
+    }
   },
   {
     "classname": "logic_relay",
     "hammerUniqueId": "2434",
     "targetname": "[PR#]escape_laser_temprelay1&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -394,96 +312,6 @@
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_deadcore\\entities\\escape_laser_hurt2_3308.vmdl",
       "_template_lump_ent_index": "7"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.2,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.6,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 0.8,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.2,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.6,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.65",
-        "delay": 1.8,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 2,
-        "limit": -1
-      }
-    ]
+    }
   }
 ]

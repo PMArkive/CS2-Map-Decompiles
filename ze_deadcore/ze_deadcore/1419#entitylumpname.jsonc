@@ -109,6 +109,8 @@
     "hammerUniqueId": "1420",
     "targetname": "[PR#]radiation_beam_temprelay1&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -304,6 +306,8 @@
     "hammerUniqueId": "5455",
     "targetname": "[PR#]radiation_beam_dy&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "forcenpcexclude": "False",
       "CreateNavObstacle": "False",

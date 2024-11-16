@@ -6,6 +6,8 @@
     "hammerUniqueId": "3327",
     "targetname": "[PR#]radiation_laser_relay4&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -131,6 +133,8 @@
     "hammerUniqueId": "291",
     "targetname": "[PR#]radiation_laser_altar4&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -181,6 +185,8 @@
     "hammerUniqueId": "289",
     "targetname": "[PR#]radiation_laser_altar1_move4&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",

@@ -36,6 +36,8 @@
     "hammerUniqueId": "2537",
     "targetname": "[PR#]radiation_link_target1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -86,6 +88,8 @@
     "hammerUniqueId": "2536",
     "targetname": "[PR#]radiation_link_target2&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -136,6 +140,8 @@
     "hammerUniqueId": "2532",
     "targetname": "[PR#]radiation_link_rotate1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "0",
       "spawnflags": "585",
@@ -215,6 +221,8 @@
     "hammerUniqueId": "2539",
     "targetname": "[PR#]radiation_link_prop1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -265,6 +273,8 @@
     "hammerUniqueId": "2531",
     "targetname": "[PR#]radiation_link_prop2&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",

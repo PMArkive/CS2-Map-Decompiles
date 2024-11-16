@@ -6,6 +6,8 @@
     "hammerUniqueId": "2086",
     "targetname": "[PR#]enemy2_ents1&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -300,6 +302,8 @@
     "hammerUniqueId": "2097",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -776,6 +780,8 @@
     "hammerUniqueId": "2098",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1252,6 +1258,8 @@
     "hammerUniqueId": "2099",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1292,7 +1300,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]enemy2_move5&0000",
       "origin": "17.000000 17.000000 17.000000",
-      "angles": "-0.000000 -89.999985 -179.999985",
+      "angles": "-0.000000 -90.000000 -179.999985",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "6"
     },
@@ -1728,6 +1736,8 @@
     "hammerUniqueId": "2100",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -2204,6 +2214,8 @@
     "hammerUniqueId": "2101",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -2680,6 +2692,8 @@
     "hammerUniqueId": "2102",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -3156,6 +3170,8 @@
     "hammerUniqueId": "2103",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -3196,7 +3212,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]enemy2_move2&0000",
       "origin": "-17.000000 17.000000 -17.000000",
-      "angles": "-0.000000 -89.999985 0.000000",
+      "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "10"
     },
@@ -3632,6 +3648,8 @@
     "hammerUniqueId": "2104",
     "targetname": "[PR#]enemy2_body&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -4108,6 +4126,8 @@
     "hammerUniqueId": "2106",
     "targetname": "[PR#]enemy2_baserotate1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "0",
       "spawnflags": "64",
@@ -4139,6 +4159,7 @@
     "hammerUniqueId": "2110",
     "targetname": "[PR#]enemy2_core1&0000",
     "properties": {
+      "NoInterpolate": "False",
       "physdamagescale": "1",
       "overrideBlockLOS": "0",
       "gamemass": "0",
@@ -4505,6 +4526,7 @@
     "hammerUniqueId": "2070",
     "targetname": "[PR#]enemy2_phys1&0000",
     "properties": {
+      "NoInterpolate": "False",
       "touchoutputperentitydelay": "0",
       "ExploitableByPlayer": "0",
       "notsolid": "0",
@@ -4847,6 +4869,8 @@
     "hammerUniqueId": "2087",
     "targetname": "[PR#]enemy2_rotate1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "64",
@@ -4878,6 +4902,8 @@
     "hammerUniqueId": "2076",
     "targetname": "[PR#]enemy2_rotate2&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "66",
@@ -4909,6 +4935,8 @@
     "hammerUniqueId": "2072",
     "targetname": "[PR#]enemy2_rotate3&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "64",
@@ -4940,6 +4968,8 @@
     "hammerUniqueId": "2144",
     "targetname": "[PR#]enemy2_rotate4&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "66",

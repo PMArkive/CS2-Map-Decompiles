@@ -237,6 +237,7 @@
     "hammerUniqueId": "4713",
     "targetname": "[PR#]cannon2_button1",
     "properties": {
+      "NoInterpolate": "False",
       "touchoutputperentitydelay": "0",
       "ExploitableByPlayer": "0",
       "notsolid": "0",

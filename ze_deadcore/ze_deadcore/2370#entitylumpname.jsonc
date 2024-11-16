@@ -6,6 +6,8 @@
     "hammerUniqueId": "2336",
     "targetname": "[PR#]escape_platform_move4&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "999999",
@@ -49,7 +51,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]escape_platform_move4&0000",
       "origin": "442.000000 442.000000 -296.000000",
-      "angles": "-0.000000 -89.999985 0.000000",
+      "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
     }
@@ -59,6 +61,8 @@
     "hammerUniqueId": "2330",
     "targetname": "[PR#]escape_platform_relay4&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",

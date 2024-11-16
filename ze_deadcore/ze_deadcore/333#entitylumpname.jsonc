@@ -6,6 +6,8 @@
     "hammerUniqueId": "334",
     "targetname": "[PR#]radiation_ball_relay16&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",

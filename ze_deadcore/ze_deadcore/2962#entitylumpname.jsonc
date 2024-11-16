@@ -6,6 +6,7 @@
     "hammerUniqueId": "4085",
     "targetname": "[PR#]a_fallt1",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des2",
@@ -192,6 +193,8 @@
     "hammerUniqueId": "1371",
     "targetname": "[PR#]a_escape_lastp_prop",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -242,6 +245,8 @@
     "hammerUniqueId": "5028",
     "targetname": "[PR#]a_boss_gate_lrotate1",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "4",
@@ -272,6 +277,8 @@
     "hammerUniqueId": "4604",
     "targetname": "[PR#]a_boss_gate_rrotate1",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "solidbsp": "0",
       "dmg": "999999",
       "spawnflags": "6",
@@ -302,6 +309,8 @@
     "hammerUniqueId": "1372",
     "targetname": "[PR#]a_escape_lastp_move",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "999999",
@@ -439,6 +448,8 @@
     "hammerUniqueId": "5026",
     "targetname": "[PR#]a_boss_relay1",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "True",
@@ -1638,6 +1649,7 @@
     "hammerUniqueId": "4066",
     "targetname": "[PR#]a_t3",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des1",
@@ -1656,6 +1668,7 @@
     "hammerUniqueId": "4070",
     "targetname": "[PR#]a_t2",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des1",
@@ -1674,6 +1687,7 @@
     "hammerUniqueId": "4068",
     "targetname": "[PR#]a_t1",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des1",
@@ -1692,6 +1706,7 @@
     "hammerUniqueId": "4057",
     "targetname": "[PR#]a_afkt4",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des2",
@@ -1710,6 +1725,7 @@
     "hammerUniqueId": "4061",
     "targetname": "[PR#]a_afkt3",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des2",
@@ -1728,6 +1744,7 @@
     "hammerUniqueId": "4083",
     "targetname": "[PR#]a_afkt2",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des2",
@@ -1746,6 +1763,7 @@
     "hammerUniqueId": "4059",
     "targetname": "[PR#]a_afkt1",
     "properties": {
+      "check_if_dest_clear_for_player": "False",
       "mirror_player": "False",
       "use_landmark_angles": "False",
       "target": "[PR#]des2",

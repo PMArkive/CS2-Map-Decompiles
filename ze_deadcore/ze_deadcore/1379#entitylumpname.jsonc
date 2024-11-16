@@ -6,6 +6,8 @@
     "hammerUniqueId": "1377",
     "targetname": "[PR#]b_escape_pole_move1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "999999",
@@ -216,6 +218,8 @@
     "hammerUniqueId": "1380",
     "targetname": "[PR#]b_escape_pole_relay1&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -289,6 +293,8 @@
     "hammerUniqueId": "4855",
     "targetname": "[PR#]b_escape_pole_prop16&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -339,6 +345,8 @@
     "hammerUniqueId": "4893",
     "targetname": "[PR#]b_escape_pole_prop16&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -372,6 +380,8 @@
     "hammerUniqueId": "4861",
     "targetname": "[PR#]b_escape_pole_prop4&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -422,6 +432,8 @@
     "hammerUniqueId": "4887",
     "targetname": "[PR#]b_escape_pole_prop4&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -455,6 +467,8 @@
     "hammerUniqueId": "4858",
     "targetname": "[PR#]b_escape_pole_prop15&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -505,6 +519,8 @@
     "hammerUniqueId": "4895",
     "targetname": "[PR#]b_escape_pole_prop15&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -538,6 +554,8 @@
     "hammerUniqueId": "4863",
     "targetname": "[PR#]b_escape_pole_prop5&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -588,6 +606,8 @@
     "hammerUniqueId": "4877",
     "targetname": "[PR#]b_escape_pole_prop5&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -621,6 +641,8 @@
     "hammerUniqueId": "4870",
     "targetname": "[PR#]b_escape_pole_prop14&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -671,6 +693,8 @@
     "hammerUniqueId": "4885",
     "targetname": "[PR#]b_escape_pole_prop14&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -704,6 +728,8 @@
     "hammerUniqueId": "4864",
     "targetname": "[PR#]b_escape_pole_prop6&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -754,6 +780,8 @@
     "hammerUniqueId": "4881",
     "targetname": "[PR#]b_escape_pole_prop6&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -787,6 +815,8 @@
     "hammerUniqueId": "4859",
     "targetname": "[PR#]b_escape_pole_prop7&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -837,6 +867,8 @@
     "hammerUniqueId": "4899",
     "targetname": "[PR#]b_escape_pole_prop7&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -870,6 +902,8 @@
     "hammerUniqueId": "4860",
     "targetname": "[PR#]b_escape_pole_prop8&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -920,6 +954,8 @@
     "hammerUniqueId": "4889",
     "targetname": "[PR#]b_escape_pole_prop8&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -953,6 +989,8 @@
     "hammerUniqueId": "4868",
     "targetname": "[PR#]b_escape_pole_prop9&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1003,6 +1041,8 @@
     "hammerUniqueId": "4873",
     "targetname": "[PR#]b_escape_pole_prop9&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1036,6 +1076,8 @@
     "hammerUniqueId": "4869",
     "targetname": "[PR#]b_escape_pole_prop13&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1086,6 +1128,8 @@
     "hammerUniqueId": "4871",
     "targetname": "[PR#]b_escape_pole_prop13&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1119,6 +1163,8 @@
     "hammerUniqueId": "4856",
     "targetname": "[PR#]b_escape_pole_prop12&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1169,6 +1215,8 @@
     "hammerUniqueId": "4891",
     "targetname": "[PR#]b_escape_pole_prop12&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1202,6 +1250,8 @@
     "hammerUniqueId": "4857",
     "targetname": "[PR#]b_escape_pole_prop11&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1252,6 +1302,8 @@
     "hammerUniqueId": "4897",
     "targetname": "[PR#]b_escape_pole_prop11&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1285,6 +1337,8 @@
     "hammerUniqueId": "4866",
     "targetname": "[PR#]b_escape_pole_prop1&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1335,6 +1389,8 @@
     "hammerUniqueId": "4875",
     "targetname": "[PR#]b_escape_pole_prop1&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1368,6 +1424,8 @@
     "hammerUniqueId": "4867",
     "targetname": "[PR#]b_escape_pole_prop10&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1418,6 +1476,8 @@
     "hammerUniqueId": "4883",
     "targetname": "[PR#]b_escape_pole_prop10&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1451,6 +1511,8 @@
     "hammerUniqueId": "4865",
     "targetname": "[PR#]b_escape_pole_prop2&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1501,6 +1563,8 @@
     "hammerUniqueId": "4879",
     "targetname": "[PR#]b_escape_pole_prop2&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
@@ -1534,6 +1598,8 @@
     "hammerUniqueId": "4862",
     "targetname": "[PR#]b_escape_pole_prop3&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -1584,6 +1650,8 @@
     "hammerUniqueId": "4901",
     "targetname": "[PR#]b_escape_pole_prop3&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",

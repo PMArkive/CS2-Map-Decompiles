@@ -6,6 +6,8 @@
     "hammerUniqueId": "3324",
     "targetname": "[PR#]radiation_laser_relay7&0000",
     "properties": {
+      "spawnflags": "0",
+      "health": "0",
       "PassthroughCaller": "False",
       "FastRetrigger": "False",
       "TriggerOnce": "False",
@@ -98,7 +100,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]radiation_laser_altar1_move7&0000",
       "origin": "0.000000 -112.000000 23.929688",
-      "angles": "89.999992 -89.999985 0.000000",
+      "angles": "89.999992 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
     }
@@ -131,6 +133,8 @@
     "hammerUniqueId": "305",
     "targetname": "[PR#]radiation_laser_altar7&0000",
     "properties": {
+      "BreakableContentsType": "BC_DEFAULT",
+      "NoInterpolate": "False",
       "clothScale": "1",
       "StartDisabled": "False",
       "forcenpcexclude": "False",
@@ -171,7 +175,7 @@
       "useLocalOffset": "False",
       "parentname": "[PR#]radiation_laser_altar1_move7&0000",
       "origin": "0.000000 -59.000000 23.929688",
-      "angles": "89.999992 -89.999985 0.000000",
+      "angles": "89.999992 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "3"
     }
@@ -181,6 +185,8 @@
     "hammerUniqueId": "303",
     "targetname": "[PR#]radiation_laser_altar1_move7&0000",
     "properties": {
+      "MoveWithoutPushingBlockers": "False",
+      "NoInterpolate": "False",
       "CreateMovableNavMesh": "False",
       "CreateNavObstacle": "False",
       "blockdamage": "0",
