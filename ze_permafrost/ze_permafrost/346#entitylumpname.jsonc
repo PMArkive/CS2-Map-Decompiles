@@ -569,7 +569,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]xwz_health",
         "input": "Add",
-        "param": "80",
+        "param": "60",
         "delay": 0,
         "limit": -1
       },

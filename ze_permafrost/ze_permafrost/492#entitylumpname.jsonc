@@ -1429,7 +1429,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]yzx_health",
         "input": "Add",
-        "param": "65",
+        "param": "50",
         "delay": 0,
         "limit": -1
       },

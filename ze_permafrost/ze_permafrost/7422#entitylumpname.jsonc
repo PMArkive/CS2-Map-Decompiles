@@ -320,6 +320,14 @@
         "param": "",
         "delay": 291,
         "limit": 1
+      },
+      {
+        "output": "OnPressed",
+        "target": "[PR#]map_cc",
+        "input": "Disable",
+        "param": "",
+        "delay": 23,
+        "limit": 1
       }
     ]
   },

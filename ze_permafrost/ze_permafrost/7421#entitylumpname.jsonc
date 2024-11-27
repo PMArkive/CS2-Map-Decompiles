@@ -124,7 +124,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]creta_Health",
         "input": "Add",
-        "param": "70",
+        "param": "50",
         "delay": 0,
         "limit": -1
       },
@@ -132,7 +132,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]creta_HealthBackup",
         "input": "Add",
-        "param": "70",
+        "param": "50",
         "delay": 0,
         "limit": -1
       }

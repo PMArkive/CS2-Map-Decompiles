@@ -349,7 +349,7 @@
       "model": "models/dukes_lever_fix.vmdl",
       "clientSideEntity": "0",
       "useLocalOffset": "False",
-      "origin": "18536.900391 -5021.100098 1080.000000",
+      "origin": "18536.900391 -5021.100098 1060.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "7"
@@ -1940,7 +1940,7 @@
         "target": "[PR#]x_fog_main",
         "input": "SetFogEndDistance",
         "param": "3450",
-        "delay": 0,
+        "delay": 0.01,
         "limit": 1
       },
       {

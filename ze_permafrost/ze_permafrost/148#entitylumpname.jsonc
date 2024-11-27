@@ -305,7 +305,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]jzx_health",
         "input": "Add",
-        "param": "85",
+        "param": "65",
         "delay": 0,
         "limit": -1
       },
