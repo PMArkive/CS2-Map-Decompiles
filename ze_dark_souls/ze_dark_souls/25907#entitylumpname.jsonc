@@ -91,7 +91,7 @@
       "alphascale": "1",
       "selfillumscale": "1",
       "colortint": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "scale": "0.6000000238418579",
+      "scale": "0.4000000059604645",
       "start_active": "True",
       "effect_textureoverride": "materials/particle/items/spook_png_d3d261c3.vtex",
       "effect_name": "particles/item_particle.vpcf",

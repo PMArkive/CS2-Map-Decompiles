@@ -185,7 +185,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "origin": "-16.000000 0.002930 4.000000",
+      "origin": "-16.000000 -0.000488 4.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_dark_souls\\entities\\ChSt_Hurt_26208.vmdl",

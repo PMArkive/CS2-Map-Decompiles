@@ -588,5 +588,61 @@
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "20"
     }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "140839",
+    "targetname": "[PR#]torch3",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp": "-1",
+      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/sens/torch.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-306.855469 -125.667969 -4066.681641",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "21"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "140865",
+    "targetname": "[PR#]torch3",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp": "-1",
+      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/sens/torch.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-261.855469 -318.667969 -6476.000000",
+      "angles": "-0.000000 179.999954 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "22"
+    }
   }
 ]

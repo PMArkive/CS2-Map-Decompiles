@@ -9,7 +9,7 @@
       "spawnflags": "17409",
       "forcenpcexclude": "False",
       "lip": "0",
-      "wait": "0.20000000298023224",
+      "wait": "0.05000000074505806",
       "speed": "5",
       "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
       "unlocked_sound": "0",

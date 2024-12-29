@@ -351,6 +351,7 @@
     "targetname": "[PR#]Borov_01_Detect_Combo&0000",
     "properties": {
       "wait": "0.009999999776482582",
+      "filtername": "[PR#]Humans_Filter",
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -540,6 +541,7 @@
       "triggeronstarttouch": "False",
       "speed": "200",
       "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "filtername": "[PR#]Humans_Filter",
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",
@@ -563,6 +565,7 @@
       "damagetype": "256",
       "damagecap": "20",
       "damage": "60",
+      "filtername": "[PR#]Humans_Filter",
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",

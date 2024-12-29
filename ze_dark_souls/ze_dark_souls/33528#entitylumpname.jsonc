@@ -4,7 +4,7 @@
   {
     "classname": "weapon_bizon",
     "hammerUniqueId": "33527",
-    "targetname": "[PR#]Weapon_Lantern",
+    "targetname": "[PR#]Weapon_Lantern&0000",
     "properties": {
       "canbepickedup": "True",
       "spawnflags": "1",
@@ -26,7 +26,7 @@
     "connections": [
       {
         "output": "OnPlayerPickup",
-        "target": "[PR#]Lantern_Light",
+        "target": "[PR#]Lantern_Light&0000",
         "input": "Enable",
         "param": "",
         "delay": 0,
@@ -45,7 +45,7 @@
   {
     "classname": "prop_dynamic",
     "hammerUniqueId": "33526",
-    "targetname": "[PR#]Lantern_Model",
+    "targetname": "[PR#]Lantern_Model&0000",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -87,7 +87,7 @@
       "model": "models/blightown/flamelight.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "parentname": "[PR#]Weapon_Lantern",
+      "parentname": "[PR#]Weapon_Lantern&0000",
       "origin": "22.730835 0.000977 26.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -97,7 +97,7 @@
   {
     "classname": "light_omni2",
     "hammerUniqueId": "33525",
-    "targetname": "[PR#]Lantern_Light",
+    "targetname": "[PR#]Lantern_Light&0000",
     "properties": {
       "precomputedsubfrusta": "6",
       "precomputedobbextent5": "135.826721 131.075500 93.379272",
@@ -135,7 +135,7 @@
       "shadowpriority": "-1",
       "shadowmapsize": "-1",
       "castshadows": "2",
-      "minroughness": "0",
+      "minroughness": "0.421999990940094",
       "bakespeculartocubemaps": "False",
       "inner_angle": "180",
       "outer_angle": "180",
@@ -158,7 +158,7 @@
       "brightness_units": "1",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "parentname": "[PR#]Weapon_Lantern",
+      "parentname": "[PR#]Weapon_Lantern&0000",
       "origin": "30.679932 0.004883 82.000000",
       "angles": "89.999954 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

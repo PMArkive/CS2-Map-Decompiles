@@ -206,7 +206,7 @@
       "alphascale": "1",
       "selfillumscale": "1",
       "colortint": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "scale": "0.44999998807907104",
+      "scale": "0.3499999940395355",
       "start_active": "True",
       "effect_textureoverride": "materials/particle/items/black_flame_png_ec5cce0b.vtex",
       "effect_name": "particles/item_particle.vpcf",

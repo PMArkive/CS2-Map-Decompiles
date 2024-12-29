@@ -268,7 +268,7 @@
       {
         "output": "OnHitMin",
         "target": "[PR#]Clown_Champion_Meteors",
-        "input": "Kill",
+        "input": "Disable",
         "param": "",
         "delay": 0,
         "limit": 1
@@ -288,6 +288,14 @@
         "param": "",
         "delay": 0.05,
         "limit": 1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]Clown_Champion_Meteors",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
+        "limit": 1
       }
     ]
   },
@@ -296,7 +304,7 @@
     "hammerUniqueId": "32820",
     "targetname": "[PR#]Clown_Champion_Meteors",
     "properties": {
-      "wait": "4",
+      "wait": "1",
       "filtername": "[PR#]Humans_Filter",
       "spawnflags": "4097",
       "startdisabled": "True",
@@ -310,50 +318,26 @@
     "connections": [
       {
         "output": "OnStartTouch",
-        "target": "[PR#]Clown_Champion_Meteors_Counter",
-        "input": "Add",
-        "param": "1",
+        "target": "!activator",
+        "input": "AddContext",
+        "param": "f_meteor:1",
         "delay": 0,
         "limit": -1
       },
       {
-        "output": "OnStartTouch",
-        "target": "[PR#]Gwyn_Spawn",
-        "input": "ForceSpawnAtEntityOrigin",
-        "param": "!activator",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
+        "output": "OnUser1",
         "target": "!self",
-        "input": "FireUser1",
+        "input": "Enable",
         "param": "",
         "delay": 0,
         "limit": 1
       },
       {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "FireUser1",
-        "param": "",
-        "delay": 0.5,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]Clown_Champion_Meteors_Relay",
-        "input": "Trigger",
-        "param": "",
-        "delay": 0.01,
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "f_meteor",
+        "delay": 5,
         "limit": -1
       }
     ]
@@ -711,7 +695,7 @@
       {
         "output": "OnUser1",
         "target": "[PR#]Clown_Champion_Meteors",
-        "input": "Enable",
+        "input": "FireUser1",
         "param": "",
         "delay": 6.25,
         "limit": 1
@@ -1190,80 +1174,6 @@
         "param": "",
         "delay": 4,
         "limit": 1
-      }
-    ]
-  },
-  {
-    "classname": "logic_relay",
-    "hammerUniqueId": "32852",
-    "targetname": "[PR#]Clown_Champion_Meteors_Relay",
-    "properties": {
-      "passthroughcaller": "False",
-      "fastretrigger": "False",
-      "triggeronce": "False",
-      "startdisabled": "False",
-      "origin": "-54.745117 57.617188 -68.376953",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
-    },
-    "connections": [
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]Clown_Champion_Meteors",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]Clown_Champion_Meteors",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
-  },
-  {
-    "classname": "math_counter",
-    "hammerUniqueId": "32851",
-    "targetname": "[PR#]Clown_Champion_Meteors_Counter",
-    "properties": {
-      "max": "2",
-      "min": "0",
-      "startvalue": "0",
-      "startdisabled": "False",
-      "origin": "-72.745117 57.617188 -68.376953",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "15"
-    },
-    "connections": [
-      {
-        "output": "OnHitMax",
-        "target": "[PR#]Clown_Champion_Meteors_Relay",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMax",
-        "target": "[PR#]Clown_Champion_Meteors_Relay",
-        "input": "Enable",
-        "param": "",
-        "delay": 3,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMax",
-        "target": "!self",
-        "input": "SetValue",
-        "param": "0",
-        "delay": 2.95,
-        "limit": -1
       }
     ]
   }
