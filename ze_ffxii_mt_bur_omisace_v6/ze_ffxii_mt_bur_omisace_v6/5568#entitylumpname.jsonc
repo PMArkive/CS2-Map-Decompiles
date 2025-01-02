@@ -14,9 +14,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -47,7 +57,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -75,18 +90,106 @@
     },
     "connections": [
       {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "SetDamageFilter",
+        "param": "[PR#]ct",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]bosshp_script_mojie",
+        "input": "StartBoss",
+        "param": "Mojie_miniboss_break,bosshp_script_mojie,boss_hud,[Adrammelech],45,1",
+        "delay": 0.2,
+        "limit": -1
+      },
+      {
         "output": "OnHealthChanged",
-        "target": "[PR#]boss_HP_Branch",
-        "input": "Test",
+        "target": "[PR#]bosshp_script_mojie",
+        "input": "SubtractHealth",
         "param": "",
         "delay": 0,
         "limit": -1
       },
       {
         "output": "OnUser1",
-        "target": "!self",
-        "input": "SetDamageFilter",
-        "param": "[PR#]ct",
+        "target": "[PR#]showhud_timer",
+        "input": "Enable",
+        "param": "",
+        "delay": 0.21,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_model",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **[Bash] Adrammelech vanquished! Path is clear!**",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_part",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_ultima_relay",
+        "input": "CancelPending",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_hurt2",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_par2",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_hurt",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Mojie_miniboss_ultima_relay",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]showhud_timer",
+        "input": "Disable",
+        "param": "",
         "delay": 0,
         "limit": -1
       }
@@ -98,7 +201,7 @@
     "targetname": "[PR#]Mojie_miniboss_ultima_relay",
     "properties": {
       "passthroughcaller": "False",
-      "fastretrigger": "False",
+      "fastretrigger": "True",
       "triggeronce": "False",
       "startdisabled": "False",
       "origin": "-40.000000 0.000000 0.000000",
@@ -210,9 +313,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -235,7 +348,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "315",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 180.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        180,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "False",
@@ -376,7 +494,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -386,7 +509,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "2",
       "renderfx": "0",
@@ -533,9 +661,9 @@
     "connections": [
       {
         "output": "OnStartTouch",
-        "target": "[PR#]Mojie_miniboss_counter",
-        "input": "Add",
-        "param": "61",
+        "target": "[PR#]bosshp_script_mojie",
+        "input": "AddHealth",
+        "param": "1,61",
         "delay": 0,
         "limit": -1
       }

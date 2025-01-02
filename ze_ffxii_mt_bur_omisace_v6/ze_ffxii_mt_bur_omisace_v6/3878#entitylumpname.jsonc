@@ -15,12 +15,22 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "origin": "0.000000 5.000000 -2.000000",
-      "angles": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "angles": "-0.000000 -90.000000 0.000000",
+      "angles __RAW_ARRAY__ (DOUBLE[3])": [
+        -0,
+        -90,
+        0
+      ],
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
     },
@@ -125,7 +135,7 @@
         "output": "OnPlayerPickup",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.07",
+        "param": "speed 1.07",
         "delay": 0.1,
         "limit": -1
       }
@@ -218,7 +228,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -228,7 +243,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -283,7 +303,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
@@ -318,7 +343,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.07",
+        "param": "speed 1.07",
         "delay": 8,
         "limit": -1
       },
@@ -326,7 +351,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.65",
+        "param": "speed 1.65",
         "delay": 0,
         "limit": -1
       },
@@ -334,7 +359,7 @@
         "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.07",
+        "param": "speed 1.07",
         "delay": 8,
         "limit": -1
       }
@@ -352,9 +377,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -449,6 +484,22 @@
         "input": "SetAnimationLooping",
         "param": "run2",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_zm_gabranth_speed_multi",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.1,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_zm_gabranth_speed_multi",
+        "input": "Enable",
+        "param": "",
+        "delay": 0.2,
         "limit": -1
       }
     ]
@@ -615,7 +666,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "150",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        90,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -643,6 +699,23 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "13"
+    }
+  },
+  {
+    "classname": "logic_measure_movement",
+    "hammerUniqueId": "24964",
+    "targetname": "[PR#]Weapon_zm_gabranth_measure2",
+    "properties": {
+      "measuretype": "0",
+      "targetscale": "1",
+      "targetreference": "[PR#]Item_zm_gabranth_fix",
+      "target": "[PR#]Item_zm_gabranth_invis_fix",
+      "measurereference": "[PR#]Item_zm_gabranth_fix",
+      "measuretarget": "[PR#]Item_zm_gabranth_fix",
+      "origin": "40.714844 57.460938 11.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "14"
     }
   }
 ]

@@ -11,7 +11,12 @@
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "preferredcarryangles": "0.000000 0.000000 0.000000",
+      "preferredcarryangles __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -24,7 +29,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -229,8 +239,8 @@
       },
       {
         "output": "OnUser3",
-        "target": "[PR#]Adrammelech_hud",
-        "input": "Kill",
+        "target": "[PR#]showhud_timer",
+        "input": "Disable",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -450,7 +460,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -460,7 +475,12 @@
       "fademaxdist": "2100",
       "fademindist": "1700",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "2",
       "renderfx": "0",
@@ -695,7 +715,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -808,14 +833,24 @@
       "bakespeculartocubemaps": "False",
       "inner_angle": "180",
       "outer_angle": "180",
-      "size_params": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "size_params": "2.000000 24.000000 0.150000",
+      "size_params __RAW_ARRAY__ (DOUBLE[3])": [
+        2,
+        24,
+        0.15000000596046448
+      ],
       "shape": "0",
       "bouncelight": "0",
       "skirt": "0.3199999928474426",
       "range": "512",
       "brightness_lumens": "1000",
       "colortemperature": "6600",
-      "color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "color": "255 255 255",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "directlight": "2",
       "enabled": "True",
       "brightness_legacy": "1",
@@ -873,9 +908,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -912,9 +957,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1058,7 +1113,7 @@
       },
       {
         "output": "OnUser1",
-        "target": "[PR#]Adrammelech_hud",
+        "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
         "delay": 1.42,
@@ -1114,7 +1169,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "305",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        90,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "False",

@@ -18,7 +18,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -57,9 +62,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -117,14 +132,19 @@
       "bakespeculartocubemaps": "False",
       "inner_angle": "180",
       "outer_angle": "180",
-      "size_params": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "size_params": "2.000000 24.000000 0.150000",
+      "size_params __RAW_ARRAY__ (DOUBLE[3])": [
+        2,
+        24,
+        0.15000000596046448
+      ],
       "shape": "0",
       "bouncescale": "3",
       "bouncelight": "0",
       "skirt": "0.3199999928474426",
       "brightness_lumens": "1000",
       "colortemperature": "6600",
-      "enabled": "True",
+      "enabled": "False",
       "brightness_legacy": "1",
       "brightness_nits": "9816",
       "brightness_candelas": "80",
@@ -136,7 +156,12 @@
       "directlight": "2",
       "range": "512",
       "brightness": "0",
-      "color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "color": "5 187 240",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        5,
+        187,
+        240
+      ],
       "origin": "0.000000 0.000000 61.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -241,7 +266,7 @@
         "target": "[PR#]Teleport_to_kepper_part_light",
         "input": "Enable",
         "param": "",
-        "delay": 28,
+        "delay": 28.02,
         "limit": -1
       },
       {

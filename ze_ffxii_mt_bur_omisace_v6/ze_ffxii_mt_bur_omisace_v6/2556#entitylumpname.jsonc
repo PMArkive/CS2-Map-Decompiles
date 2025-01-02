@@ -17,14 +17,24 @@
       "authoredposition": "0",
       "startposition": "0",
       "spawnflags": "8",
-      "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "movedir": "0.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "235 181 37",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        235,
+        181,
+        37
+      ],
       "renderamt": "100",
       "rendermode": "0",
       "renderfx": "0",
@@ -289,9 +299,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -318,9 +338,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -347,9 +377,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -376,9 +416,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -405,9 +455,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -434,9 +494,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -463,9 +533,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -492,9 +572,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -521,9 +611,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -550,9 +650,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",

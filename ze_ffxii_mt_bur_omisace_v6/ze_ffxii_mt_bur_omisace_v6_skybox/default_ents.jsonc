@@ -31,7 +31,12 @@
       "maxpropscreenwidth": "-1",
       "newunit": "0",
       "pvstype": "10",
-      "startcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "startcolor": "0 0 0",
+      "startcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "startdark": "False",
       "skyname": "sky_day01_01",
       "origin": "0.000000 0.000000 0.000000",
@@ -68,7 +73,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -78,7 +88,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -128,7 +143,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -138,7 +158,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -188,7 +213,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -198,7 +228,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -248,7 +283,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -258,7 +298,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -305,7 +350,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -315,7 +365,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -364,7 +419,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -374,7 +434,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -419,7 +484,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -454,7 +524,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -464,7 +539,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -507,7 +587,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -549,7 +634,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -581,7 +671,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -613,7 +708,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -645,7 +745,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -677,7 +782,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -709,7 +819,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -741,7 +856,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -773,7 +893,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -805,7 +930,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -837,7 +967,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -869,7 +1004,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -893,9 +1033,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -921,9 +1071,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -949,9 +1109,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -977,9 +1147,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1005,9 +1185,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1033,9 +1223,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1061,9 +1261,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1089,9 +1299,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1129,7 +1349,12 @@
       "disablelowviolence": "0",
       "solid": "6",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1139,7 +1364,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1174,9 +1404,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1214,7 +1454,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1224,7 +1469,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1271,7 +1521,12 @@
       "disablelowviolence": "0",
       "solid": "6",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1281,7 +1536,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1327,7 +1587,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1337,7 +1602,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1383,7 +1653,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1393,7 +1668,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1428,9 +1708,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1460,14 +1750,24 @@
       "authoredposition": "0",
       "startposition": "0",
       "spawnflags": "8",
-      "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "movedir": "90.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (DOUBLE[3])": [
+        90,
+        0,
+        0
+      ],
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1512,14 +1812,24 @@
       "authoredposition": "0",
       "startposition": "0",
       "spawnflags": "8",
-      "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "movedir": "-90.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (DOUBLE[3])": [
+        -90,
+        0,
+        0
+      ],
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1561,9 +1871,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1589,9 +1909,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1628,7 +1958,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1638,7 +1973,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1685,7 +2025,12 @@
       "disablelowviolence": "0",
       "solid": "6",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -1695,7 +2040,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1730,9 +2080,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -1771,13 +2131,28 @@
     "properties": {
       "lightprobetexture": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas.vtex",
       "clientsideentity": "1",
-      "edge_fade_dists": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "edge_fade_dists": "0.000000 0.000000 0.000000",
+      "edge_fade_dists __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "indoor_outdoor_level": "0",
       "voxelize": "True",
       "flood_fill": "True",
       "voxel_size": "48.000000",
-      "box_maxs": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "box_mins": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "box_maxs": "3696.000000 4432.000000 2824.000000",
+      "box_maxs __RAW_ARRAY__ (DOUBLE[3])": [
+        3696,
+        4432,
+        2824
+      ],
+      "box_mins": "-504.000000 -4560.000000 -4616.000000",
+      "box_mins __RAW_ARRAY__ (DOUBLE[3])": [
+        -504,
+        -4560,
+        -4616
+      ],
       "bakefarz": "4096",
       "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
       "startdisabled": "False",
@@ -1802,13 +2177,28 @@
     "properties": {
       "lightprobetexture": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas.vtex",
       "clientsideentity": "1",
-      "edge_fade_dists": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "edge_fade_dists": "0.000000 0.000000 0.000000",
+      "edge_fade_dists __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "indoor_outdoor_level": "0",
       "voxelize": "True",
       "flood_fill": "True",
       "voxel_size": "48.000000",
-      "box_maxs": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "box_mins": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "box_maxs": "208.000000 4432.000000 2824.000000",
+      "box_maxs __RAW_ARRAY__ (DOUBLE[3])": [
+        208,
+        4432,
+        2824
+      ],
+      "box_mins": "-4504.000000 -4560.000000 -4616.000000",
+      "box_mins __RAW_ARRAY__ (DOUBLE[3])": [
+        -4504,
+        -4560,
+        -4616
+      ],
       "bakefarz": "4096",
       "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
       "startdisabled": "False",
@@ -1832,7 +2222,12 @@
     "hammerUniqueId": "1021",
     "properties": {
       "brightnessscale": "1",
-      "tint_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_color": "255 255 255",
+      "tint_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "skyname": "materials/skybox/mpa115.vmat",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -1872,11 +2267,21 @@
       "clientsideentity": "1",
       "angulardiameter": "1",
       "brightnessscale": "1",
-      "skyambientbounce": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "skyambientbounce": "0 0 0",
+      "skyambientbounce __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "skybouncescale": "1",
       "skytexturescale": "1",
       "skyintensity": "1.1470589637756348",
-      "skycolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "skycolor": "217 241 248",
+      "skycolor __RAW_ARRAY__ (UINT64[3])": [
+        217,
+        241,
+        248
+      ],
       "bouncescale": "1",
       "directlight": "3",
       "nearclipplane": "1",
@@ -1885,7 +2290,12 @@
       "shadowpriority": "-1",
       "castshadows": "1",
       "brightness": "2",
-      "color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "color": "238 197 77",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        238,
+        197,
+        77
+      ],
       "enabled": "True",
       "uselocaloffset": "False",
       "sunlightminbrightness": "32",
@@ -1893,18 +2303,18 @@
       "shadowcascadedistance0": "512",
       "shadowcascadedistance1": "1024",
       "shadowcascadedistance2": "2048",
-      "shadowcascadedistance3": "0",
+      "shadowcascadedistance3": "0.000000",
       "shadowcascaderesolution0": "0",
       "shadowcascaderesolution1": "0",
       "shadowcascaderesolution2": "0",
       "shadowcascaderesolution3": "0",
-      "cascadecrossfade": "0.10000000149011612",
-      "cascadedistancefade": "0.05000000074505806",
+      "cascadecrossfade": "0.100000",
+      "cascadedistancefade": "0.050000",
       "cascaderenderstaticobj": "-1",
-      "ambient_occlusion": "False",
-      "max_occlusion_distance": "16",
-      "fully_occluded_fraction": "1",
-      "occlusion_exponent": "1",
+      "ambient_occlusion": "0",
+      "max_occlusion_distance": "16.000000",
+      "fully_occluded_fraction": "1.000000",
+      "occlusion_exponent": "1.000000",
       "origin": "-473.145447 161.741211 651.230103",
       "angles": "60.000000 232.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"

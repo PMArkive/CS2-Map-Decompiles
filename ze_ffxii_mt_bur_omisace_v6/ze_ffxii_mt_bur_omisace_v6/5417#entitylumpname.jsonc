@@ -16,12 +16,22 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "origin": "-1.000000 5.000000 0.000000",
-      "angles": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "angles": "-0.000000 -90.000000 0.000000",
+      "angles __RAW_ARRAY__ (DOUBLE[3])": [
+        -0,
+        -90,
+        0
+      ],
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
     },
@@ -88,9 +98,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -128,7 +148,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -138,7 +163,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "2",
       "renderfx": "kRenderFxNone",
@@ -174,14 +204,24 @@
       "lip": "0",
       "wait": "0.25",
       "speed": "5",
-      "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "movedir": "0.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -211,7 +251,12 @@
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "0.15000000596046448",
-      "postspawndirection": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "postspawnspeed": "0",
       "entitytemplate": "[PR#]5arrow_template",
       "spawnflags": "0",
@@ -389,7 +434,7 @@
       "tolocalplayer": "False",
       "startonspawn": "False",
       "soundname": "Ambient.BowNew",
-      "sourceentityname": "[PR#]Weapon_Crossbow",
+      "sourceentityname": "[PR#]Weapon_Crossbow_Model2",
       "uselocaloffset": "False",
       "origin": "-11.000000 -42.000000 32.209961",
       "angles": "-0.000000 0.000000 0.000000",

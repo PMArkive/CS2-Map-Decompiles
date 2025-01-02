@@ -13,9 +13,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -48,7 +58,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "185",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        90,
+        0
+      ],
       "filtername": "[PR#]zombie",
       "spawnflags": "1",
       "startdisabled": "False",
@@ -79,7 +94,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "185",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 270.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        270,
+        0
+      ],
       "filtername": "[PR#]zombie",
       "spawnflags": "1",
       "startdisabled": "False",
@@ -110,7 +130,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "185",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "filtername": "[PR#]zombie",
       "spawnflags": "1",
       "startdisabled": "False",
@@ -153,7 +178,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.70",
+        "param": "speed 0.70",
         "delay": 0,
         "limit": -1
       },
@@ -169,7 +194,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.05",
+        "param": "speed 1.05",
         "delay": 5,
         "limit": -1
       },
@@ -177,7 +202,7 @@
         "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.05",
+        "param": "speed 1.05",
         "delay": 0,
         "limit": -1
       },
@@ -200,7 +225,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "185",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 180.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        180,
+        0
+      ],
       "filtername": "[PR#]zombie",
       "spawnflags": "1",
       "startdisabled": "False",

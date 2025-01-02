@@ -13,9 +13,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "22 226 233",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        22,
+        226,
+        233
+      ],
       "tint_cp": "3",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "256.000000 10.000000 16.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        256,
+        10,
+        16
+      ],
       "data_cp": "2",
       "snapshot_mesh": "-1",
       "no_save": "False",

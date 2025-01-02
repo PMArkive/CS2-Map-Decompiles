@@ -15,12 +15,22 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "origin": "0.000000 5.000000 0.000000",
-      "angles": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "angles": "-0.000000 -90.000000 0.000000",
+      "angles __RAW_ARRAY__ (DOUBLE[3])": [
+        -0,
+        -90,
+        0
+      ],
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
     },
@@ -117,7 +127,7 @@
         "output": "OnPlayerPickup",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.15",
+        "param": "speed 1.15",
         "delay": 0.1,
         "limit": -1
       }
@@ -135,9 +145,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -198,14 +218,24 @@
       "lip": "0",
       "wait": "0.25",
       "speed": "5",
-      "movedir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "movedir": "0.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -237,7 +267,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 305.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        305,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -259,7 +294,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 235.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        235,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -281,7 +321,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 225.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        225,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -303,7 +348,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 326.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        326,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -325,7 +375,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 140.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        140,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -347,7 +402,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 54.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        54,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -369,7 +429,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 128.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        128,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -391,7 +456,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "400",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 36.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        36,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -451,9 +521,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",

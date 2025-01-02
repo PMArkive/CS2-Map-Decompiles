@@ -13,9 +13,19 @@
       "cpoint3_parent": "0",
       "cpoint2_parent": "0",
       "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "data_cp": "-1",
       "snapshot_mesh": "0",
       "no_save": "False",
@@ -60,7 +70,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.05",
+        "param": "speed 1.05",
         "delay": 7,
         "limit": -1
       },
@@ -68,7 +78,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.9",
+        "param": "speed 0.9",
         "delay": 0,
         "limit": -1
       },
@@ -76,7 +86,7 @@
         "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.05",
+        "param": "speed 1.05",
         "delay": 0,
         "limit": -1
       },
@@ -84,7 +94,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.8",
+        "param": "speed 0.8",
         "delay": 0.02,
         "limit": -1
       },
@@ -92,7 +102,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.7",
+        "param": "speed 0.70",
         "delay": 0.05,
         "limit": -1
       },
@@ -100,7 +110,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.6",
+        "param": "speed 0.6",
         "delay": 0.08,
         "limit": -1
       },
@@ -108,7 +118,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 0.5",
+        "param": "speed 0.50",
         "delay": 0.11,
         "limit": -1
       },

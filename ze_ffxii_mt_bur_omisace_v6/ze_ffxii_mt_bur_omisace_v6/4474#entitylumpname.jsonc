@@ -173,7 +173,7 @@
         "output": "OnTrigger",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "1.000000",
+        "param": "0.600000",
         "delay": 7,
         "limit": 1
       },
@@ -331,7 +331,7 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]gabranthend_hud",
+        "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
         "delay": 0,
@@ -364,7 +364,12 @@
       "disablelowviolence": "0",
       "solid": "0",
       "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
       "glowrangemin": "0",
       "glowrange": "0",
       "glowstate": "0",
@@ -374,7 +379,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "228 227 181",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        228,
+        227,
+        181
+      ],
       "renderamt": "255",
       "rendermode": "1",
       "renderfx": "0",
@@ -717,7 +727,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -754,8 +769,8 @@
       },
       {
         "output": "OnUser3",
-        "target": "[PR#]gabranthend_hud",
-        "input": "Kill",
+        "target": "[PR#]showhud_timer",
+        "input": "Disable",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -972,7 +987,7 @@
         "output": "OnUser3",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "1.000000",
+        "param": "0.600000",
         "delay": 2,
         "limit": -1
       },
@@ -1048,7 +1063,7 @@
         "output": "OnCase03",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13286.5 2421.5 10617.5",
+        "param": "origin 13286.5 2421.5 10622",
         "delay": 0,
         "limit": -1
       },
@@ -1180,7 +1195,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
@@ -1355,7 +1375,7 @@
         "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.03",
+        "param": "speed 1.03",
         "delay": 0.01,
         "limit": -1
       },
@@ -1371,7 +1391,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "runspeed 1.65",
+        "param": "speed 1.65",
         "delay": 0,
         "limit": -1
       }
@@ -1386,7 +1406,12 @@
       "alternateticksfix": "0",
       "triggeronstarttouch": "False",
       "speed": "330",
-      "pushdir": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "pushdir": "0.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "False",
@@ -1595,7 +1620,7 @@
         "output": "OnHitMin",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "1.000000",
+        "param": "0.600000",
         "delay": 2,
         "limit": -1
       },

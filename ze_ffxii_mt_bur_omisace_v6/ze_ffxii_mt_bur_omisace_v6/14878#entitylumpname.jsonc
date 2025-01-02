@@ -280,6 +280,14 @@
         "param": "Bergan_boss1_Physbox,bosshp_script,boss_hud,[Judge$Bergan],100,1,4",
         "delay": 0.2,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]showhud_timer",
+        "input": "Enable",
+        "param": "",
+        "delay": 0.21,
+        "limit": -1
       }
     ]
   },
@@ -340,7 +348,12 @@
       "fademaxdist": "0",
       "fademindist": "-1",
       "disablereceiveshadows": "True",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
