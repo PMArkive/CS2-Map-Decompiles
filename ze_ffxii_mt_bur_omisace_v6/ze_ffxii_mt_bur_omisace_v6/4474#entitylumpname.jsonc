@@ -94,7 +94,7 @@
         "target": "[PR#]sound",
         "input": "StartSound",
         "param": "",
-        "delay": 0.02,
+        "delay": 0.03,
         "limit": 1
       },
       {
@@ -173,7 +173,7 @@
         "output": "OnTrigger",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 7,
         "limit": 1
       },
@@ -335,6 +335,14 @@
         "input": "Enable",
         "param": "",
         "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]sound",
+        "input": "SetSourceEntity",
+        "param": "[PR#]ending_boss2_laser_model",
+        "delay": 0.02,
         "limit": 1
       }
     ]
@@ -772,7 +780,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       },
       {
@@ -987,7 +995,7 @@
         "output": "OnUser3",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 2,
         "limit": -1
       },
@@ -1063,7 +1071,7 @@
         "output": "OnCase03",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13286.5 2421.5 10622",
+        "param": "origin 13286.5 2421.5 10625",
         "delay": 0,
         "limit": -1
       },
@@ -1167,7 +1175,7 @@
         "output": "OnCase04",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13286.5 2421.5 10617.5",
+        "param": "origin 13286.5 2421.5 10610.5",
         "delay": 0,
         "limit": -1
       }
@@ -1620,7 +1628,7 @@
         "output": "OnHitMin",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 2,
         "limit": -1
       },

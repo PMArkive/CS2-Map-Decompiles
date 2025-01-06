@@ -569,7 +569,7 @@
     "targetname": "[PR#]sanctuary_keeper_boss_Final_Relay",
     "properties": {
       "passthroughcaller": "False",
-      "fastretrigger": "False",
+      "fastretrigger": "True",
       "triggeronce": "False",
       "startdisabled": "False",
       "origin": "-16.000000 -48.000000 -14.250000",
@@ -1006,14 +1006,6 @@
       },
       {
         "output": "OnHitMin",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 1",
-        "delay": 7,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMin",
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser2",
         "param": "",
@@ -1083,7 +1075,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
-        "param": "1,210",
+        "param": "1,162",
         "delay": 0,
         "limit": -1
       }
@@ -1269,14 +1261,6 @@
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser1",
         "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 0",
         "delay": 0,
         "limit": -1
       },
@@ -3544,14 +3528,6 @@
       },
       {
         "output": "OnUser3",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 1",
-        "delay": 7,
-        "limit": -1
-      },
-      {
-        "output": "OnUser3",
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser2",
         "param": "",
@@ -3595,7 +3571,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       },
       {
@@ -3603,7 +3579,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       },
       {
@@ -3612,6 +3588,22 @@
         "input": "Enable",
         "param": "",
         "delay": 3.5,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]fixsanctuary_keeper_boss_attack_doom_teleport_back",
+        "input": "Enable",
+        "param": "",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]fixsanctuary_keeper_boss_attack_doom_teleport_back",
+        "input": "Disable",
+        "param": "",
+        "delay": 2,
         "limit": -1
       }
     ]

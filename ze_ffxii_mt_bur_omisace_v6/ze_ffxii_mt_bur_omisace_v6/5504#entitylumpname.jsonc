@@ -1249,7 +1249,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       }
     ]
@@ -1672,7 +1672,7 @@
         "output": "OnTrigger",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 6,
         "limit": -1
       },

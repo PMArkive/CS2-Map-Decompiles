@@ -702,7 +702,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]Venat_mini_boss_HP",
         "input": "Add",
-        "param": "95",
+        "param": "55",
         "delay": 0,
         "limit": -1
       }

@@ -4764,6 +4764,22 @@
         "param": "target cinematic_cam_rotate_Y_reverse",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]tp_stage4_fix_1",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]tp_stage4_fix_2",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },

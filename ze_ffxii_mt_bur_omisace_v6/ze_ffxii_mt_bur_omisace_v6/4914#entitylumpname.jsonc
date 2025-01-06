@@ -268,6 +268,7 @@
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",
+      "parentname": "[PR#]Weapon_zm_invisible",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -312,6 +313,22 @@
         "input": "Trigger",
         "param": "",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "0",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "255",
+        "delay": 9,
         "limit": -1
       }
     ]
@@ -385,14 +402,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]Item_zm_invisible_trigger",
-        "input": "Disable",
-        "param": "",
-        "delay": 0.1,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]Weapon_zm_invisible_Effect2",
         "input": "Start",
         "param": "",
@@ -405,6 +414,14 @@
         "input": "Stop",
         "param": "",
         "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_zm_invisible_trigger",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.2,
         "limit": -1
       }
     ]
@@ -446,61 +463,6 @@
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "8"
-    }
-  },
-  {
-    "classname": "logic_measure_movement",
-    "hammerUniqueId": "24798",
-    "targetname": "[PR#]Item_zm_invisible_measure",
-    "properties": {
-      "measuretype": "0",
-      "targetscale": "1",
-      "targetreference": "[PR#]Item_zm_invisible_fix",
-      "target": "[PR#]Item_zm_invisible_trigger",
-      "measurereference": "[PR#]Item_zm_invisible_fix",
-      "measuretarget": "[PR#]Item_zm_invisible_fix",
-      "origin": "-19.865234 0.081543 -36.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
-    }
-  },
-  {
-    "classname": "func_rotating",
-    "hammerUniqueId": "24797",
-    "targetname": "[PR#]Item_zm_invisible_fix",
-    "properties": {
-      "solidbsp": "0",
-      "movewithoutpushingblockers": "False",
-      "nointerpolate": "False",
-      "dmg": "0",
-      "volume": "10",
-      "fanfriction": "20",
-      "maxspeed": "100",
-      "disableshadows": "0",
-      "lightmapstatic": "0",
-      "rendertocubemaps": "False",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
-        255,
-        255,
-        255
-      ],
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "spawnflags": "512",
-      "uselocaloffset": "False",
-      "parentname": "[PR#]Weapon_zm_invisible",
-      "origin": "0.000000 0.000000 -38.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Item_zm_invisible_fix_24797.vmdl",
-      "_template_lump_ent_index": "10"
     }
   }
 ]

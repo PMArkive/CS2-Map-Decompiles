@@ -578,7 +578,7 @@
         "target": "[PR#]sound",
         "input": "StartSound",
         "param": "",
-        "delay": 0.02,
+        "delay": 0.03,
         "limit": -1
       },
       {
@@ -745,7 +745,7 @@
         "output": "OnFullyOpen",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 2,
         "limit": -1
       },
@@ -755,6 +755,14 @@
         "input": "Disable",
         "param": "",
         "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnFullyOpen",
+        "target": "[PR#]sound",
+        "input": "SetSourceEntity",
+        "param": "[PR#]ending_drace2_laser_model",
+        "delay": 0.02,
         "limit": -1
       }
     ]
@@ -807,7 +815,7 @@
         "output": "OnCase01",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13564.5 2389.5 10589.5",
+        "param": "origin 13564.5 2421 10589.5",
         "delay": 0,
         "limit": -1
       },
@@ -815,7 +823,7 @@
         "output": "OnCase02",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13564.5 2389.5 10604.5",
+        "param": "origin 13564.5 2421 10604.5",
         "delay": 0,
         "limit": -1
       },
@@ -823,7 +831,7 @@
         "output": "OnCase03",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13564.5 2389.5 10617.5",
+        "param": "origin 13564.5 2421 10610",
         "delay": 0,
         "limit": -1
       },
@@ -864,7 +872,7 @@
         "target": "[PR#]Maker_attack",
         "input": "ForceSpawn",
         "param": "",
-        "delay": 0.01,
+        "delay": 0.03,
         "limit": -1
       },
       {
@@ -887,7 +895,7 @@
         "output": "OnCase04",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13564.5 2389.5 10621.5",
+        "param": "origin 13564.5 2421 10624",
         "delay": 0,
         "limit": -1
       },

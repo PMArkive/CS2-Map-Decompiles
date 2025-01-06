@@ -3018,7 +3018,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
-        "param": "1,125",
+        "param": "1,100",
         "delay": 0,
         "limit": -1
       }
@@ -3600,7 +3600,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       },
       {
@@ -3649,6 +3649,14 @@
         "input": "AddOutput",
         "param": "OnCase03>Bergan_boss2_HP_Multi>Disable>>0.1>1",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]bergan_boss2_Sky_rotating",
+        "input": "SetSpeed",
+        "param": "0.100000",
+        "delay": 1,
         "limit": -1
       }
     ]

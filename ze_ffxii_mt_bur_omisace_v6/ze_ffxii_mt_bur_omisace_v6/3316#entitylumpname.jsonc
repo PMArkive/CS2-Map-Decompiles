@@ -976,7 +976,7 @@
         "target": "[PR#]sound2",
         "input": "StartSound",
         "param": "",
-        "delay": 0.02,
+        "delay": 0.03,
         "limit": -1
       },
       {
@@ -1073,6 +1073,14 @@
         "input": "Start",
         "param": "",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]sound2",
+        "input": "SetSourceEntity",
+        "param": "[PR#]Random_event_imperial_army_physbox",
+        "delay": 0.01,
         "limit": -1
       }
     ]

@@ -79,6 +79,30 @@
         "param": "",
         "delay": 6,
         "limit": -1
+      },
+      {
+        "output": "OnHurtPlayer",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 0.78",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHurtPlayer",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.07",
+        "delay": 0.39,
+        "limit": -1
+      },
+      {
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.07",
+        "delay": 0.39,
+        "limit": -1
       }
     ]
   },

@@ -145,7 +145,7 @@
       "frequency": "200",
       "duration": "4",
       "radius": "3500",
-      "amplitude": "7",
+      "amplitude": "4",
       "spawnflags": "4",
       "uselocaloffset": "False",
       "origin": "1.000000 -17.000000 0.000000",

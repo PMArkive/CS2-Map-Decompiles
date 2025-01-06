@@ -42,14 +42,6 @@
     "connections": [
       {
         "output": "OnUser1",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 0",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
         "target": "!self",
         "input": "Kill",
         "param": "",

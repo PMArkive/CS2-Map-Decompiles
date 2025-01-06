@@ -78,14 +78,6 @@
       },
       {
         "output": "OnPlayerPickup",
-        "target": "[PR#]Item_dark_Spawner",
-        "input": "AddOutput",
-        "param": "OnEntitySpawned>Item_Darkaga_*>FireUser1>>5.05>-1",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnPlayerPickup",
         "target": "[PR#]Item_dark_Gametext",
         "input": "ShowHudHint",
         "param": "",

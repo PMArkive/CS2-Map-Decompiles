@@ -2,17 +2,11 @@
 // Made by Kyle 'Kxnrl' Frankiss
 [
   {
-    "classname": "trigger_hurt",
+    "classname": "trigger_multiple",
     "hammerUniqueId": "3093",
     "targetname": "[PR#]item_zm_fear4_trigger",
     "properties": {
-      "thinkalways": "False",
-      "nodmgforce": "False",
-      "forgivedelay": "3",
-      "damagemodel": "0",
-      "damagetype": "0",
-      "damagecap": "20",
-      "damage": "0",
+      "wait": "1",
       "filtername": "[PR#]ct",
       "spawnflags": "1",
       "startdisabled": "True",
@@ -45,7 +39,7 @@
         "target": "!activator",
         "input": "KeyValue",
         "param": "speed 1.0",
-        "delay": 0,
+        "delay": 3.9,
         "limit": -1
       }
     ]
@@ -114,17 +108,9 @@
       {
         "output": "OnSpawn",
         "target": "[PR#]item_zm_fear4_trigger",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]item_zm_fear4_trigger",
         "input": "Kill",
         "param": "",
-        "delay": 0.35,
+        "delay": 0.1,
         "limit": -1
       },
       {
@@ -141,6 +127,14 @@
         "input": "Kill",
         "param": "",
         "delay": 2.4,
+        "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]item_zm_fear4_trigger",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]

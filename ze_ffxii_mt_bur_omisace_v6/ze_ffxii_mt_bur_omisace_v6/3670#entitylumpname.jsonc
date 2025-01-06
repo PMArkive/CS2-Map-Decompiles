@@ -151,14 +151,6 @@
       },
       {
         "output": "OnUser3",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 1",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser3",
         "target": "[PR#]Adrammelech_boss_ambient_002",
         "input": "StartSound",
         "param": "",
@@ -242,7 +234,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       }
     ]
@@ -356,14 +348,6 @@
         "input": "FireUser1",
         "param": "",
         "delay": 5,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMin",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 1",
-        "delay": 0,
         "limit": -1
       },
       {
@@ -606,7 +590,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_Adrammelech",
         "input": "AddHealth",
-        "param": "1,75",
+        "param": "1,65",
         "delay": 0,
         "limit": -1
       }
@@ -1225,7 +1209,7 @@
         "output": "OnCase02",
         "target": "[PR#]laser_template",
         "input": "KeyValue",
-        "param": "origin -5485 7639 43",
+        "param": "origin -5485 7639 49",
         "delay": 0,
         "limit": -1
       }

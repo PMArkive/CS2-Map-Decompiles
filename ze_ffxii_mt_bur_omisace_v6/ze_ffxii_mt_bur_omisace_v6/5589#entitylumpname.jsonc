@@ -1570,7 +1570,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]lvl1_crystal_ending_model",
         "input": "AddHealth",
-        "param": "370",
+        "param": "340",
         "delay": 0,
         "limit": -1
       },
@@ -1578,7 +1578,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]Shield_boss_laser_breakable",
         "input": "AddHealth",
-        "param": "530",
+        "param": "470",
         "delay": 0,
         "limit": -1
       }

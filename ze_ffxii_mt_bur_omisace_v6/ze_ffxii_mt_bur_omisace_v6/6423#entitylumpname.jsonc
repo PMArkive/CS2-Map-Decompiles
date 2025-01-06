@@ -445,7 +445,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_bergan2",
         "input": "AddHealth",
-        "param": "1,145",
+        "param": "1,87",
         "delay": 0,
         "limit": -1
       }
@@ -514,7 +514,7 @@
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
-      "massscale": "0",
+      "massscale": "0.8399999737739563",
       "damagetype": "0",
       "skippresettle": "False",
       "lightmapstatic": "0",
@@ -649,7 +649,6 @@
     "hammerUniqueId": "2805",
     "targetname": "[PR#]bergan_boss2_Sky_rotating",
     "properties": {
-      "fadescale": "1",
       "solidbsp": "0",
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
@@ -657,7 +656,7 @@
       "spawnflags": "65",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -687,7 +686,6 @@
     "hammerUniqueId": "3775",
     "targetname": "[PR#]bergan_boss2_Sky_rotating",
     "properties": {
-      "fadescale": "1",
       "solidbsp": "0",
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
@@ -695,7 +693,7 @@
       "spawnflags": "65",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -725,7 +723,6 @@
     "hammerUniqueId": "4798",
     "targetname": "[PR#]bergan_boss2_Sky_rotating",
     "properties": {
-      "fadescale": "1",
       "solidbsp": "0",
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
@@ -733,7 +730,7 @@
       "spawnflags": "67",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -770,7 +767,7 @@
       "spawnflags": "65",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -800,7 +797,6 @@
     "hammerUniqueId": "5547",
     "targetname": "[PR#]bergan_boss2_Sky_rotating",
     "properties": {
-      "fadescale": "1",
       "solidbsp": "0",
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
@@ -808,7 +804,7 @@
       "spawnflags": "67",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -838,7 +834,6 @@
     "hammerUniqueId": "6006",
     "targetname": "[PR#]bergan_boss2_Sky_rotating",
     "properties": {
-      "fadescale": "1",
       "solidbsp": "0",
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
@@ -846,7 +841,7 @@
       "spawnflags": "65",
       "volume": "10",
       "fanfriction": "20",
-      "maxspeed": "0",
+      "maxspeed": "5",
       "disableshadows": "1",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
@@ -876,7 +871,7 @@
     "hammerUniqueId": "3532",
     "targetname": "[PR#]bergan_boss2_Thrust_Forward",
     "properties": {
-      "force": "2000",
+      "force": "1500",
       "forcetime": "0.100000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
@@ -891,7 +886,7 @@
     "hammerUniqueId": "3676",
     "targetname": "[PR#]bergan_boss2_Thrust_Left",
     "properties": {
-      "force": "2000",
+      "force": "1300",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
@@ -906,7 +901,7 @@
     "hammerUniqueId": "3806",
     "targetname": "[PR#]bergan_boss2_Thrust_Left2",
     "properties": {
-      "force": "6100",
+      "force": "4000",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
@@ -921,7 +916,7 @@
     "hammerUniqueId": "3553",
     "targetname": "[PR#]bergan_boss2_Thrust_Right",
     "properties": {
-      "force": "2000",
+      "force": "1300",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
@@ -936,7 +931,7 @@
     "hammerUniqueId": "3711",
     "targetname": "[PR#]bergan_boss2_Thrust_Right2",
     "properties": {
-      "force": "6100",
+      "force": "4000",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
@@ -3956,7 +3951,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       }
     ]

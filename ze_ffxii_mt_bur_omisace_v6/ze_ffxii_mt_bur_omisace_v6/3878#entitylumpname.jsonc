@@ -323,49 +323,6 @@
     }
   },
   {
-    "classname": "trigger_multiple",
-    "hammerUniqueId": "3890",
-    "targetname": "[PR#]Item_zm_gabranth_speed_multi",
-    "properties": {
-      "wait": "1",
-      "filtername": "[PR#]Item_zm_gabranth_filter",
-      "spawnflags": "1",
-      "startdisabled": "True",
-      "uselocaloffset": "False",
-      "origin": "-0.500000 -0.500000 1.410156",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Item_zm_gabranth_speed_multi_3890.vmdl",
-      "_template_lump_ent_index": "6"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1.07",
-        "delay": 8,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1.65",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnEndTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1.07",
-        "delay": 8,
-        "limit": -1
-      }
-    ]
-  },
-  {
     "classname": "info_particle_system",
     "hammerUniqueId": "3888",
     "targetname": "[PR#]Item_zm_gabranth_attack_effect",
@@ -401,7 +358,7 @@
       "origin": "0.000000 -20.000000 38.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "7"
+      "_template_lump_ent_index": "6"
     }
   },
   {
@@ -420,7 +377,7 @@
       "origin": "0.000000 -20.000000 55.010010",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "7"
     }
   },
   {
@@ -435,7 +392,7 @@
       "origin": "-24.000000 64.000000 6.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "8"
     },
     "connections": [
       {
@@ -464,22 +421,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]Item_zm_gabranth_speed_multi",
-        "input": "Disable",
-        "param": "",
-        "delay": 1,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]Item_zm_gabranth_speed_multi",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]Item_zm_gabranth_model",
         "input": "SetAnimationLooping",
         "param": "run2",
@@ -488,18 +429,10 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]Item_zm_gabranth_speed_multi",
-        "input": "Disable",
+        "target": "[PR#]Item_zm_gabranth_filter",
+        "input": "TestActivator",
         "param": "",
-        "delay": 0.1,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]Item_zm_gabranth_speed_multi",
-        "input": "Enable",
-        "param": "",
-        "delay": 0.2,
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -516,7 +449,7 @@
       "origin": "-40.000000 64.000000 6.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "9"
     },
     "connections": [
       {
@@ -654,7 +587,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Item_zm_gabranth_attack_trigger_2944.vmdl",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -681,24 +614,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Item_zm_gabranth_attack_trigger2_3879.vmdl",
-      "_template_lump_ent_index": "12"
-    }
-  },
-  {
-    "classname": "logic_measure_movement",
-    "hammerUniqueId": "24779",
-    "targetname": "[PR#]Weapon_zm_gabranth_measure",
-    "properties": {
-      "measuretype": "0",
-      "targetscale": "1",
-      "targetreference": "[PR#]Item_zm_gabranth_fix",
-      "target": "[PR#]Item_zm_gabranth_speed_multi",
-      "measurereference": "[PR#]Item_zm_gabranth_fix",
-      "measuretarget": "[PR#]Item_zm_gabranth_fix",
-      "origin": "40.714844 57.460938 -13.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "11"
     }
   },
   {
@@ -715,7 +631,7 @@
       "origin": "40.714844 57.460938 11.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "12"
     }
   }
 ]

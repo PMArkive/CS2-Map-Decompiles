@@ -190,7 +190,7 @@
         "target": "[PR#]showhud_timer",
         "input": "Disable",
         "param": "",
-        "delay": 0,
+        "delay": 0.3,
         "limit": -1
       }
     ]
@@ -663,7 +663,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_mojie",
         "input": "AddHealth",
-        "param": "1,61",
+        "param": "1,45",
         "delay": 0,
         "limit": -1
       }

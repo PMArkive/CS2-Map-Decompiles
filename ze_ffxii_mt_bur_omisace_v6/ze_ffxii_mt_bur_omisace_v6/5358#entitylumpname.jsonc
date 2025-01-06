@@ -235,14 +235,14 @@
         "target": "!activator",
         "input": "KeyValue",
         "param": "speed 1.05",
-        "delay": 6,
+        "delay": 5.05,
         "limit": -1
       },
       {
         "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "speed 1.0",
+        "param": "speed 1.05",
         "delay": 0,
         "limit": -1
       },
@@ -251,6 +251,22 @@
         "target": "!self",
         "input": "Kill",
         "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "absvelocity 0 0 0",
+        "delay": 5.07,
+        "limit": -1
+      },
+      {
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "absvelocity 0 0 0",
         "delay": 0,
         "limit": -1
       }

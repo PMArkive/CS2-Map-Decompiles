@@ -889,7 +889,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "2",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "noise2": "Ambient.Metal8",
@@ -967,7 +967,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]Random_event_Cactus_physbox",
         "input": "AddHealth",
-        "param": "295",
+        "param": "230",
         "delay": 0,
         "limit": -1
       }
@@ -2002,14 +2002,6 @@
         "param": "",
         "delay": 0.51,
         "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]bergan_boss2_Sky_rotating",
-        "input": "SetSpeed",
-        "param": "0.020000",
-        "delay": 1,
-        "limit": -1
       }
     ]
   },
@@ -2277,7 +2269,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "0",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "speed": "29",
@@ -2461,7 +2453,7 @@
       "frequency": "215",
       "duration": "14",
       "radius": "5000",
-      "amplitude": "14",
+      "amplitude": "6",
       "spawnflags": "5",
       "uselocaloffset": "False",
       "origin": "-74.000000 2186.000000 -95.000000",
@@ -2891,7 +2883,7 @@
         "output": "OnMapSpawn",
         "target": "[PR#]cmd",
         "input": "Command",
-        "param": "say **For better game experience, set your Graphical settings on High and Brightness 100%**",
+        "param": "say !! For better game experience, set your Graphical settings on High and Brightness 100% !!",
         "delay": 4,
         "limit": 1
       },
@@ -2901,6 +2893,14 @@
         "input": "KeyValue",
         "param": "angles 5 90 0",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnMapSpawn",
+        "target": "[PR#]Map_Start_Reset2",
+        "input": "Kill",
+        "param": "",
+        "delay": 10,
         "limit": -1
       }
     ]
@@ -3523,14 +3523,6 @@
         "output": "OnUser1",
         "target": "!self",
         "input": "Command",
-        "param": "mp_startmoney 16000",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
         "param": "mp_roundtime 30",
         "delay": 0,
         "limit": 1
@@ -3547,23 +3539,7 @@
         "output": "OnUser1",
         "target": "!self",
         "input": "Command",
-        "param": "mp_flashlight 1",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
         "param": "sv_gravity 800",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
-        "param": "sv_enablebunnyhopping 1",
         "delay": 0,
         "limit": 1
       },
@@ -3574,70 +3550,6 @@
         "param": "sv_airaccelerate 10",
         "delay": 0,
         "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
-        "param": "zr_infect_spawn_mz_ratio 5",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
-        "param": "zr_infect_spawn_time_min 5",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
-        "param": "zr_infect_spawn_time_max 5",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Command",
-        "param": "zr_respawn_delay 3",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]zr_infect_spawn_mz_ratio",
-        "input": "5",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]zr_infect_spawn_time_min",
-        "input": "5",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]zr_infect_spawn_time_max",
-        "input": "5",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]zr_respawn_delay",
-        "input": "3",
-        "param": "",
-        "delay": 0,
-        "limit": -1
       }
     ]
   },
@@ -3788,7 +3700,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]Random_event_imperial_army_physbox",
         "input": "AddHealth",
-        "param": "250",
+        "param": "220",
         "delay": 0,
         "limit": -1
       }
@@ -4898,7 +4810,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "0",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "speed": "29",
@@ -6287,7 +6199,33 @@
       "origin": "-9511.000000 -4918.000000 -4137.839844",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.65",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.07",
+        "delay": 8,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.07",
+        "delay": 9,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "func_door_rotating",
@@ -6590,7 +6528,7 @@
         "output": "OnUser2",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 11.02,
         "limit": -1
       },
@@ -6630,7 +6568,7 @@
         "output": "OnUser3",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.600000",
+        "param": "0.800000",
         "delay": 21,
         "limit": -1
       },
@@ -7584,6 +7522,14 @@
         "input": "Enable",
         "param": "",
         "delay": 11,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]sound",
+        "input": "SetSourceEntity",
+        "param": "[PR#]Bergan_boss1_model",
+        "delay": 2.05,
         "limit": -1
       }
     ]
@@ -11238,7 +11184,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "2",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "noise2": "Ambient.Metal8",
@@ -11281,7 +11227,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "2",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "noise2": "Ambient.Metal8",
@@ -14544,14 +14490,6 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "targetname player_none",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
         "param": "rendercolor 255 255 255",
         "delay": 0,
         "limit": -1
@@ -15812,6 +15750,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]trig_stage2_fix_1",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -16397,7 +16343,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "2",
+      "dmg": "10",
       "lip": "0",
       "wait": "-1",
       "noise2": "Ambient.Metal8",
@@ -28985,6 +28931,50 @@
     ]
   },
   {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "24970",
+    "targetname": "[PR#]Map_Start_Reset2",
+    "properties": {
+      "wait": "0.25",
+      "spawnflags": "1",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "-5012.620117 -9995.799805 -528.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Map_Start_Reset2_24970.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "targetname player_none",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_teleport",
+    "hammerUniqueId": "24976",
+    "targetname": "[PR#]fixsanctuary_keeper_boss_attack_doom_teleport_back",
+    "properties": {
+      "check_if_dest_clear_for_player": "False",
+      "mirror_player": "False",
+      "use_landmark_angles": "False",
+      "target": "[PR#]sanctuary_keeper_boss_ct_spawn",
+      "filtername": "[PR#]ct",
+      "spawnflags": "1",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "origin": "-10392.000000 -10471.000000 -683.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\fixsanctuary_keeper_boss_attack_doom_teleport_back_24976.vmdl"
+    }
+  },
+  {
     "classname": "env_combined_light_probe_volume",
     "hammerUniqueId": "14732",
     "properties": {
@@ -31179,7 +31169,7 @@
     "hammerUniqueId": "14874",
     "targetname": "[PR#]MusicParam",
     "properties": {
-      "floatvalue": "0.6000000238418579",
+      "floatvalue": "0.800000011920929",
       "parametername": "Volume",
       "uselocaloffset": "False",
       "origin": "38.000000 2170.000000 -95.000000",
@@ -81769,6 +81759,136 @@
     "properties": {
       "script": "scripts/boss_hp.vts",
       "origin": "-5272.000000 -9705.260742 -620.261780",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "logic_timer",
+    "hammerUniqueId": "24972",
+    "targetname": "[PR#]tp_stage4_fix_1",
+    "properties": {
+      "initialdelay": "0",
+      "refiretime": "0.5",
+      "pauseafterfiring": "False",
+      "userandomtime": "False",
+      "spawnflags": "0",
+      "startdisabled": "True",
+      "origin": "-2335.876953 4711.627930 10595.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTimer",
+        "target": "[PR#]stage4_fall_hurt",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTimer",
+        "target": "[PR#]stage4_fall_hurt",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.45,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_timer",
+    "hammerUniqueId": "24974",
+    "targetname": "[PR#]tp_stage4_fix_2",
+    "properties": {
+      "initialdelay": "0",
+      "refiretime": "0.5",
+      "pauseafterfiring": "False",
+      "userandomtime": "False",
+      "spawnflags": "0",
+      "startdisabled": "True",
+      "origin": "-2335.876953 4732.000000 10595.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTimer",
+        "target": "[PR#]stage4_fall_multi1",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTimer",
+        "target": "[PR#]stage4_fall_multi1",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.45,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_timer",
+    "hammerUniqueId": "24975",
+    "targetname": "[PR#]trig_stage2_fix_1",
+    "properties": {
+      "initialdelay": "0",
+      "refiretime": "0.5",
+      "pauseafterfiring": "False",
+      "userandomtime": "False",
+      "spawnflags": "0",
+      "startdisabled": "True",
+      "origin": "-13009.824219 -11509.569336 -932.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTimer",
+        "target": "[PR#]sanctuary_keeper_teleport_fall",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTimer",
+        "target": "[PR#]sanctuary_keeper_teleport_fall",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.45,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "phys_keepupright",
+    "hammerUniqueId": "24980",
+    "targetname": "[PR#]bergan_boss2_KeepUpRight",
+    "properties": {
+      "dampallrotation": "False",
+      "angularlimit": "2555",
+      "attach1": "[PR#]bergan_boss2_Phys",
+      "spawnflags": "0",
+      "origin": "8270.000000 -9379.000000 -7064.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "phys_keepupright",
+    "hammerUniqueId": "24981",
+    "targetname": "[PR#]Gabranth_boss2_KeepUpRight",
+    "properties": {
+      "dampallrotation": "False",
+      "angularlimit": "2555",
+      "attach1": "[PR#]Gabranth_boss2_Phys",
+      "spawnflags": "0",
+      "origin": "5938.000000 2421.000000 15005.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
