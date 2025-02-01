@@ -1546,6 +1546,14 @@
         "param": "say **[Bash] The Guard of the gates. If we want to escape we have to defeat him!**",
         "delay": 17.25,
         "limit": -1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]Stage1VIS_Relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 7,
+        "limit": -1
       }
     ]
   },
@@ -1728,14 +1736,6 @@
         "param": "",
         "delay": 0.5,
         "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]Map_Score_Add",
-        "input": "ApplyScore",
-        "param": "",
-        "delay": 0,
-        "limit": -1
       }
     ]
   },
@@ -2173,6 +2173,30 @@
         "input": "Command",
         "param": "say **The gates will open in 20 seconds**",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]TempleVIS1",
+        "input": "Kill",
+        "param": "",
+        "delay": 5,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]TempleVIS2",
+        "input": "Kill",
+        "param": "",
+        "delay": 5,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]TempleVIS3",
+        "input": "Kill",
+        "param": "",
+        "delay": 5,
         "limit": -1
       }
     ]

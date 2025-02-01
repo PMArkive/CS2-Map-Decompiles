@@ -62,7 +62,7 @@
       {
         "output": "OnTimer",
         "target": "[PR#]Ending_boss1_laser_tesla",
-        "input": "DoSpark",
+        "input": "ForceSpawn",
         "param": "",
         "delay": 0.01,
         "limit": -1
@@ -142,7 +142,7 @@
       "performancemode": "0",
       "exploderadius": "0",
       "explodedamage": "0",
-      "disableshadows": "1",
+      "disableshadows": "2",
       "skin": "0",
       "model": "models/ze_ffxii_mt_bur_omisace_v6/malgo/ffxii_omisace/judge_zargabaath/judge_zargabaath.vmdl",
       "clientsideentity": "0",
@@ -240,11 +240,6 @@
     "hammerUniqueId": "24801",
     "targetname": "[PR#]Ending_boss1_laser_tesla",
     "properties": {
-      "tint_cp_color": "168 210 253 255",
-      "tint_cp": "3",
-      "data_cp_value": "256 6 16",
-      "data_cp": "2",
-      "effect_name": "particles/tesla.vpcf",
       "template01": "[PR#]tesla_particle",
       "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
       "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
@@ -285,7 +280,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_zar",
         "input": "AddHealth",
-        "param": "1,32",
+        "param": "1,56",
         "delay": 0,
         "limit": -1
       }
@@ -367,7 +362,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_zar",
         "input": "GrenadeDamage",
-        "param": "20",
+        "param": "22",
         "delay": 0,
         "limit": -1
       }
@@ -1742,14 +1737,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]Map_Spawner",
-        "input": "KeyValue",
-        "param": "EntityTemplate 2_Laser_Temp",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]cinematic_text",
         "input": "KeyValue",
         "param": "message [Zargabaath] So found his Excellency ^You would do well to mind your tongue",
@@ -1793,6 +1780,14 @@
         "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Map_Spawner",
+        "input": "KeyValue",
+        "param": "EntityTemplate 2_Laser_Temp",
         "delay": 0,
         "limit": -1
       }

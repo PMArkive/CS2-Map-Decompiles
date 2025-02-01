@@ -325,6 +325,46 @@
         "param": "",
         "delay": 0.3,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]BehemothRed_Boss_Name",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]BehemothRed_Boss_Name",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 1,
+        "limit": -1
       }
     ]
   },
@@ -3266,6 +3306,65 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "43"
+    }
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "25003",
+    "targetname": "[PR#]BehemothRed_Boss_Name",
+    "properties": {
+      "depth_render_offset": "0",
+      "reorient_mode": "1",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Verdana",
+      "font_size": "70",
+      "world_units_per_pixel": "0.25",
+      "color": "255 255 255",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": "True",
+      "enabled": "False",
+      "message": "< Behemoth >",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]BehemothRed_boss_model",
+      "origin": "-1066.230469 -322.000000 209.000000",
+      "angles": "-0.000000 0.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "44"
+    }
+  },
+  {
+    "classname": "phys_keepupright",
+    "hammerUniqueId": "25113",
+    "targetname": "[PR#]BehemothRed_Boss_KeepUpRight",
+    "properties": {
+      "dampallrotation": "False",
+      "angularlimit": "2555",
+      "attach1": "[PR#]BehemothRed_Boss_Attack_Phys",
+      "spawnflags": "0",
+      "origin": "219.769531 -307.000000 -6.000000",
+      "angles": "-0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "45"
     }
   }
 ]

@@ -796,6 +796,62 @@
         "param": "",
         "delay": 0.3,
         "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]trighurt_stage4_fix",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Gabranth_BossFight_Bakas",
+        "input": "Disable",
+        "param": "",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Gabranth_boss2_Name",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Gabranth_boss2_Name",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 2,
+        "limit": -1
       }
     ]
   },
@@ -879,7 +935,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script",
         "input": "GrenadeDamage",
-        "param": "85",
+        "param": "62",
         "delay": 0,
         "limit": -1
       }
@@ -1360,6 +1416,14 @@
         "param": "",
         "delay": 1.21,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]trighurt_stage4_fix",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -1368,7 +1432,7 @@
     "hammerUniqueId": "4660",
     "targetname": "[PR#]Gabranth_boss2_Thrust_Forward",
     "properties": {
-      "force": "1700",
+      "force": "1800",
       "forcetime": "0.100000",
       "attach1": "[PR#]Gabranth_boss2_Phys",
       "spawnflags": "30",
@@ -1383,7 +1447,7 @@
     "hammerUniqueId": "4661",
     "targetname": "[PR#]Gabranth_boss2_Thrust_Left",
     "properties": {
-      "force": "1300",
+      "force": "1400",
       "forcetime": "0.030000",
       "attach1": "[PR#]Gabranth_boss2_Phys",
       "spawnflags": "30",
@@ -1413,7 +1477,7 @@
     "hammerUniqueId": "4664",
     "targetname": "[PR#]Gabranth_boss2_Thrust_Right",
     "properties": {
-      "force": "1300",
+      "force": "1400",
       "forcetime": "0.030000",
       "attach1": "[PR#]Gabranth_boss2_Phys",
       "spawnflags": "30",
@@ -3505,7 +3569,7 @@
         "output": "OnUser1",
         "target": "[PR#]Gabranth_boss2_Thrust_Forward",
         "input": "KeyValue",
-        "param": "force 2350",
+        "param": "force 1800",
         "delay": 3,
         "limit": -1
       },
@@ -4050,6 +4114,70 @@
         "target": "[PR#]cinematic_text",
         "input": "KeyValue",
         "param": "message Esper Exodus",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase01",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Belias!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase02",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Mateus!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase03",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Zalera!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase04",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Ultima!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase05",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Adrammelech!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase06",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Chaos!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase07",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Zodiark!**",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnCase08",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say **Judge Gabranth summons Esper Exodus!**",
         "delay": 0,
         "limit": 1
       }
@@ -4601,7 +4729,7 @@
         "output": "OnUser1",
         "target": "[PR#]Gabranth_boss2_Thrust_Forward",
         "input": "KeyValue",
-        "param": "force 2350",
+        "param": "force 1800",
         "delay": 4.47,
         "limit": -1
       },
@@ -5571,5 +5699,64 @@
         "limit": -1
       }
     ]
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "25007",
+    "targetname": "[PR#]Gabranth_boss2_Name",
+    "properties": {
+      "depth_render_offset": "0",
+      "reorient_mode": "1",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Verdana",
+      "font_size": "40",
+      "world_units_per_pixel": "0.25",
+      "color": "255 255 255",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": "True",
+      "enabled": "False",
+      "message": "< Judge Gabranth >",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Gabranth_boss2_model",
+      "origin": "-1.000000 0.000000 -4051.000000",
+      "angles": "-0.000000 0.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "64"
+    }
+  },
+  {
+    "classname": "phys_keepupright",
+    "hammerUniqueId": "24981",
+    "targetname": "[PR#]Gabranth_boss2_KeepUpRight",
+    "properties": {
+      "dampallrotation": "False",
+      "angularlimit": "2555",
+      "attach1": "[PR#]Gabranth_boss2_Phys",
+      "spawnflags": "0",
+      "origin": "4.000000 0.000000 10.000000",
+      "angles": "-0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "65"
+    }
   }
 ]

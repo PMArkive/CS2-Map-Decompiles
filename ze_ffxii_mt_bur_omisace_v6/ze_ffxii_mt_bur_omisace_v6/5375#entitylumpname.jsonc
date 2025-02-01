@@ -73,19 +73,11 @@
     },
     "connections": [
       {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1.05",
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
         "delay": 6,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.98",
-        "delay": 0,
         "limit": -1
       },
       {
@@ -93,15 +85,23 @@
         "target": "!activator",
         "input": "KeyValue",
         "param": "speed 1.05",
+        "delay": 0.4,
+        "limit": -1
+      },
+      {
+        "output": "OnHurtPlayer",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 0.59",
         "delay": 0,
         "limit": -1
       },
       {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "Kill",
-        "param": "",
-        "delay": 6,
+        "output": "OnHurtPlayer",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.05",
+        "delay": 0.4,
         "limit": -1
       }
     ]

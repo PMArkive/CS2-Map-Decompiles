@@ -1023,7 +1023,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "943",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1061,7 +1061,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "944",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1099,7 +1099,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "945",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1137,7 +1137,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "946",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1175,7 +1175,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "947",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1213,7 +1213,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "948",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1251,7 +1251,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "949",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -1289,7 +1289,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "950",
-    "targetname": "[PR#]stage4_skybox_ship_engine_part",
+    "targetname": "[PR#]zstage4_skybox_ship_engine_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -2070,7 +2070,7 @@
   {
     "classname": "info_particle_system",
     "hammerUniqueId": "1016",
-    "targetname": "[PR#]stage4_ending_part",
+    "targetname": "[PR#]zstage4_ending_part",
     "properties": {
       "flag_as_weather": "0",
       "cpoint7_parent": "0",
@@ -2231,8 +2231,8 @@
       "skyname": "materials/skybox/mpa115.vmat",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "origin": "-442.122650 171.518417 621.307434",
-      "angles": "0.000000 0.000000 0.000000",
+      "origin": "-442.122620 171.518433 621.307434",
+      "angles": "0.000000 345.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
   },
@@ -2315,7 +2315,7 @@
       "max_occlusion_distance": "16.000000",
       "fully_occluded_fraction": "1.000000",
       "occlusion_exponent": "1.000000",
-      "origin": "-473.145447 161.741211 651.230103",
+      "origin": "-480.000000 160.000000 672.000000",
       "angles": "60.000000 232.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }

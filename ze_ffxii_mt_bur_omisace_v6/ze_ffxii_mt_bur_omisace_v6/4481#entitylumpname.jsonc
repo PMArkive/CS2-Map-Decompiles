@@ -84,7 +84,7 @@
         "output": "OnHurtPlayer",
         "target": "[PR#]bosshp_script_gab2",
         "input": "ChangeHealthIt",
-        "param": "36",
+        "param": "39",
         "delay": 0,
         "limit": -1
       }

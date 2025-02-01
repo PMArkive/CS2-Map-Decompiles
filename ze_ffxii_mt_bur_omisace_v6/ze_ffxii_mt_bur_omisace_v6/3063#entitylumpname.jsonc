@@ -3658,6 +3658,30 @@
         "param": "0.100000",
         "delay": 1,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Bergan_boss1_Name",
+        "input": "Enable",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Bergan_boss1_Name",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Stage3VIS_Relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },

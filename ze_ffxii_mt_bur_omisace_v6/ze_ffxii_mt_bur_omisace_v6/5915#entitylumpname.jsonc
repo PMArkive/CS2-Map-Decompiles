@@ -300,6 +300,14 @@
         "param": "[PR#]Teleport_to_kepper_part",
         "delay": 28,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Stage2VIS_Relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 14,
+        "limit": 1
       }
     ]
   }

@@ -3605,6 +3605,46 @@
         "param": "",
         "delay": 2,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]sanctuary_keeper_boss_Name",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]sanctuary_keeper_boss_Name",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 5,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 5.1,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Zm_Skin_Disable_Relay",
+        "input": "FireUser2",
+        "param": "",
+        "delay": 5.2,
+        "limit": -1
       }
     ]
   },

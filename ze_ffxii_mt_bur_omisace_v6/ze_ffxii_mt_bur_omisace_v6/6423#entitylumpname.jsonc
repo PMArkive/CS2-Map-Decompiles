@@ -398,30 +398,17 @@
     ]
   },
   {
-    "classname": "filter_activator_class",
-    "hammerUniqueId": "6419",
-    "targetname": "[PR#]bergan_boss2_Filter_Wall",
-    "properties": {
-      "filterclass": "func_physbox",
-      "negated": "0",
-      "origin": "16.000000 16.000000 0.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "5"
-    }
-  },
-  {
     "classname": "func_clip_vphysics",
     "hammerUniqueId": "2561",
     "targetname": "[PR#]bergan_boss2_Func_Clip",
     "properties": {
-      "filtername": "[PR#]bergan_boss2_Filter_Wall",
+      "filtername": "[PR#]zBergan_boss2_Filter_Wall",
       "startdisabled": "False",
       "origin": "-9065.000000 9251.000000 7064.750000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Func_Clip_2561.vmdl",
-      "_template_lump_ent_index": "6"
+      "_template_lump_ent_index": "5"
     }
   },
   {
@@ -438,7 +425,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Bergan_boss2_HP_Multi_3661.vmdl",
-      "_template_lump_ent_index": "7"
+      "_template_lump_ent_index": "6"
     },
     "connections": [
       {
@@ -466,7 +453,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Hitbox_Nade_5682.vmdl",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "7"
     },
     "connections": [
       {
@@ -489,7 +476,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_bergan2",
         "input": "GrenadeDamage",
-        "param": "60",
+        "param": "45",
         "delay": 0,
         "limit": -1
       }
@@ -551,7 +538,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Phys_3510.vmdl",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "8"
     }
   },
   {
@@ -569,7 +556,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Rot_Trigger_6200.vmdl",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "9"
     },
     "connections": [
       {
@@ -641,7 +628,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Rotate_3808.vmdl",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -678,7 +665,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_2805.vmdl",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "11"
     }
   },
   {
@@ -715,7 +702,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_3775.vmdl",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "12"
     }
   },
   {
@@ -752,7 +739,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_4798.vmdl",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "13"
     }
   },
   {
@@ -789,7 +776,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_5512.vmdl",
-      "_template_lump_ent_index": "15"
+      "_template_lump_ent_index": "14"
     }
   },
   {
@@ -826,7 +813,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_5547.vmdl",
-      "_template_lump_ent_index": "16"
+      "_template_lump_ent_index": "15"
     }
   },
   {
@@ -863,7 +850,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_Sky_rotating_6006.vmdl",
-      "_template_lump_ent_index": "17"
+      "_template_lump_ent_index": "16"
     }
   },
   {
@@ -871,14 +858,14 @@
     "hammerUniqueId": "3532",
     "targetname": "[PR#]bergan_boss2_Thrust_Forward",
     "properties": {
-      "force": "1500",
+      "force": "1600",
       "forcetime": "0.100000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
       "origin": "-795.000000 -144.000000 -30.250000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "18"
+      "_template_lump_ent_index": "17"
     }
   },
   {
@@ -886,14 +873,14 @@
     "hammerUniqueId": "3676",
     "targetname": "[PR#]bergan_boss2_Thrust_Left",
     "properties": {
-      "force": "1300",
+      "force": "1450",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
       "origin": "-827.000000 -160.000000 -30.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "19"
+      "_template_lump_ent_index": "18"
     }
   },
   {
@@ -908,7 +895,7 @@
       "origin": "-828.000000 -159.000000 -30.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "20"
+      "_template_lump_ent_index": "19"
     }
   },
   {
@@ -916,14 +903,14 @@
     "hammerUniqueId": "3553",
     "targetname": "[PR#]bergan_boss2_Thrust_Right",
     "properties": {
-      "force": "1300",
+      "force": "1450",
       "forcetime": "0.030000",
       "attach1": "[PR#]bergan_boss2_Phys",
       "spawnflags": "30",
       "origin": "-763.000000 -160.000000 -30.250000",
       "angles": "-0.000000 -179.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "21"
+      "_template_lump_ent_index": "20"
     }
   },
   {
@@ -938,7 +925,7 @@
       "origin": "-762.000000 -159.000000 -30.250000",
       "angles": "-0.000000 -179.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "22"
+      "_template_lump_ent_index": "21"
     }
   },
   {
@@ -950,7 +937,7 @@
       "origin": "16.000000 48.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "23"
+      "_template_lump_ent_index": "22"
     }
   },
   {
@@ -965,7 +952,7 @@
       "origin": "32.000000 32.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "24"
+      "_template_lump_ent_index": "23"
     },
     "connections": [
       {
@@ -990,7 +977,7 @@
       "origin": "48.000000 32.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "25"
+      "_template_lump_ent_index": "24"
     },
     "connections": [
       {
@@ -1043,7 +1030,7 @@
       "origin": "32.000000 16.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "26"
+      "_template_lump_ent_index": "25"
     },
     "connections": [
       {
@@ -1115,7 +1102,7 @@
       "origin": "-796.000000 -187.000000 -10.220215",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "27"
+      "_template_lump_ent_index": "26"
     }
   },
   {
@@ -1139,7 +1126,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_hurt_2665.vmdl",
-      "_template_lump_ent_index": "28"
+      "_template_lump_ent_index": "27"
     },
     "connections": [
       {
@@ -1218,7 +1205,7 @@
       "origin": "-795.000000 -147.000000 -7.720215",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "29"
+      "_template_lump_ent_index": "28"
     },
     "connections": [
       {
@@ -1311,7 +1298,7 @@
       "origin": "80.000000 64.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "30"
+      "_template_lump_ent_index": "29"
     },
     "connections": [
       {
@@ -1736,7 +1723,7 @@
       "origin": "64.000000 64.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "31"
+      "_template_lump_ent_index": "30"
     },
     "connections": [
       {
@@ -2217,7 +2204,7 @@
       "origin": "48.000000 48.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "32"
+      "_template_lump_ent_index": "31"
     },
     "connections": [
       {
@@ -2363,7 +2350,7 @@
       "origin": "-795.000000 -144.000000 1.029785",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "33"
+      "_template_lump_ent_index": "32"
     }
   },
   {
@@ -2378,7 +2365,7 @@
       "origin": "48.000000 64.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "34"
+      "_template_lump_ent_index": "33"
     },
     "connections": [
       {
@@ -2700,7 +2687,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_fire_hurt_3534.vmdl",
-      "_template_lump_ent_index": "35"
+      "_template_lump_ent_index": "34"
     },
     "connections": [
       {
@@ -2750,7 +2737,7 @@
       "origin": "-795.000000 -144.000000 16.750000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "36"
+      "_template_lump_ent_index": "35"
     },
     "connections": [
       {
@@ -2804,7 +2791,7 @@
       "origin": "80.000000 80.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "37"
+      "_template_lump_ent_index": "36"
     },
     "connections": [
       {
@@ -3255,7 +3242,7 @@
       "origin": "80.000000 64.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "38"
+      "_template_lump_ent_index": "37"
     },
     "connections": [
       {
@@ -3288,7 +3275,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_ultima_hurt_3130.vmdl",
-      "_template_lump_ent_index": "39"
+      "_template_lump_ent_index": "38"
     }
   },
   {
@@ -3327,7 +3314,7 @@
       "origin": "-796.000000 -187.000000 0.779785",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "40"
+      "_template_lump_ent_index": "39"
     },
     "connections": [
       {
@@ -3433,7 +3420,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_vampire_hurt_5848.vmdl",
-      "_template_lump_ent_index": "41"
+      "_template_lump_ent_index": "40"
     },
     "connections": [
       {
@@ -3499,7 +3486,7 @@
       "origin": "-795.000000 -144.000000 0.750000",
       "angles": "-0.000000 -179.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "42"
+      "_template_lump_ent_index": "41"
     },
     "connections": [
       {
@@ -3556,7 +3543,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_water_hurt_5843.vmdl",
-      "_template_lump_ent_index": "43"
+      "_template_lump_ent_index": "42"
     },
     "connections": [
       {
@@ -3621,7 +3608,7 @@
       "origin": "-795.000000 -144.000000 0.750000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "44"
+      "_template_lump_ent_index": "43"
     },
     "connections": [
       {
@@ -3681,7 +3668,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_wind_hurt_5835.vmdl",
-      "_template_lump_ent_index": "45"
+      "_template_lump_ent_index": "44"
     }
   },
   {
@@ -3707,7 +3694,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_wind_hurt_5837.vmdl",
-      "_template_lump_ent_index": "46"
+      "_template_lump_ent_index": "45"
     }
   },
   {
@@ -3733,7 +3720,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_wind_hurt_5839.vmdl",
-      "_template_lump_ent_index": "47"
+      "_template_lump_ent_index": "46"
     }
   },
   {
@@ -3759,7 +3746,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_phase2_attack_wind_hurt_5841.vmdl",
-      "_template_lump_ent_index": "48"
+      "_template_lump_ent_index": "47"
     }
   },
   {
@@ -3799,7 +3786,7 @@
       "origin": "-795.000000 -144.000000 0.750000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "49"
+      "_template_lump_ent_index": "48"
     },
     "connections": [
       {
@@ -3848,7 +3835,7 @@
       "origin": "32.000000 64.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "50"
+      "_template_lump_ent_index": "49"
     },
     "connections": [
       {
@@ -3919,7 +3906,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\bergan_boss2_physbox_3769.vmdl",
-      "_template_lump_ent_index": "51"
+      "_template_lump_ent_index": "50"
     },
     "connections": [
       {
@@ -3953,6 +3940,30 @@
         "param": "",
         "delay": 0.3,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Bergan_boss2_Name",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Bergan_boss2_Name",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Stage3VIS_Relay2",
+        "input": "Trigger",
+        "param": "",
+        "delay": 20,
+        "limit": 1
       }
     ]
   },
@@ -3991,7 +4002,7 @@
       "origin": "-796.000000 -187.000000 -88.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "52"
+      "_template_lump_ent_index": "51"
     }
   },
   {
@@ -4029,7 +4040,66 @@
       "origin": "-796.000000 -187.000000 138.750000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "52"
+    }
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "25006",
+    "targetname": "[PR#]Bergan_boss2_Name",
+    "properties": {
+      "depth_render_offset": "0",
+      "reorient_mode": "1",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Verdana",
+      "font_size": "40",
+      "world_units_per_pixel": "0.25",
+      "color": "255 255 255",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "fullbright": "True",
+      "enabled": "False",
+      "message": "< Judge Bergan >",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]bergan_boss2_model",
+      "origin": "-796.000000 -150.330078 104.750000",
+      "angles": "-0.000000 0.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "53"
+    }
+  },
+  {
+    "classname": "phys_keepupright",
+    "hammerUniqueId": "24980",
+    "targetname": "[PR#]bergan_boss2_KeepUpRight",
+    "properties": {
+      "dampallrotation": "False",
+      "angularlimit": "2555",
+      "attach1": "[PR#]bergan_boss2_Phys",
+      "spawnflags": "0",
+      "origin": "-795.000000 -128.000000 0.750000",
+      "angles": "-0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "54"
     }
   }
 ]

@@ -113,7 +113,7 @@
       "disablereceiveshadows": "False",
       "damagetype": "0",
       "damagetoenablemotion": "0",
-      "origin": "-431.000000 -3696.000000 6928.020020",
+      "origin": "25.000000 0.000000 0.020020",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\BossAttackVampireTarget_6406.vmdl",

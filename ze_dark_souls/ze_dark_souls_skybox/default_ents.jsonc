@@ -5,36 +5,41 @@
     "classname": "worldspawn",
     "hammerUniqueId": "1",
     "properties": {
-      "prefab_has_runtime_entity_by_default": "0",
-      "skyname": "sens_sky/sens_skybox1",
-      "startdark": "False",
-      "startcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "pvstype": "11",
-      "newunit": "0",
-      "maxpropscreenwidth": "-1",
-      "minpropscreenwidth": "0",
-      "vrchaperone": "0",
-      "vrmovement": "0",
-      "baked_light_index_min": "0",
-      "baked_light_index_max": "4096",
-      "max_lightmap_resolution": "4096",
-      "lightmap_queries": "True",
-      "steamaudio_reverb_rebake_option": "1",
-      "steamaudio_reverb_grid_type": "0",
-      "steamaudio_reverb_grid_spacing": "6",
-      "steamaudio_reverb_height_above_floor": "1.5",
-      "steamaudio_reverb_rays": "32768",
-      "steamaudio_reverb_bounces": "32",
-      "steamaudio_reverb_ir_duration": "1",
-      "steamaudio_reverb_ambisonic_order": "1",
-      "steamaudio_pathing_rebake_option": "1",
-      "steamaudio_pathing_grid_type": "0",
-      "steamaudio_pathing_grid_spacing": "6",
-      "steamaudio_pathing_height_above_floor": "1.5",
-      "steamaudio_pathing_visibility_samples": "1",
-      "steamaudio_pathing_visibility_radius": "0",
-      "steamaudio_pathing_visibility_threshold": "0.10000000149011612",
       "steamaudio_pathing_visibility_pathrange": "100",
+      "steamaudio_pathing_visibility_threshold": "0.10000000149011612",
+      "steamaudio_pathing_visibility_radius": "0",
+      "steamaudio_pathing_visibility_samples": "1",
+      "steamaudio_pathing_height_above_floor": "1.5",
+      "steamaudio_pathing_grid_spacing": "6",
+      "steamaudio_pathing_grid_type": "0",
+      "steamaudio_pathing_rebake_option": "1",
+      "steamaudio_reverb_ambisonic_order": "1",
+      "steamaudio_reverb_ir_duration": "1",
+      "steamaudio_reverb_bounces": "32",
+      "steamaudio_reverb_rays": "32768",
+      "steamaudio_reverb_height_above_floor": "1.5",
+      "steamaudio_reverb_grid_spacing": "6",
+      "steamaudio_reverb_grid_type": "0",
+      "steamaudio_reverb_rebake_option": "1",
+      "lightmap_queries": "True",
+      "max_lightmap_resolution": "4096",
+      "baked_light_index_max": "4096",
+      "baked_light_index_min": "0",
+      "vrmovement": "0",
+      "vrchaperone": "0",
+      "minpropscreenwidth": "0",
+      "maxpropscreenwidth": "-1",
+      "newunit": "0",
+      "pvstype": "11",
+      "startcolor": "0 0 0",
+      "startcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "startdark": "False",
+      "skyname": "sens_sky/sens_skybox1",
+      "prefab_has_runtime_entity_by_default": "0",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -46,24 +51,10 @@
     "classname": "sky_camera",
     "hammerUniqueId": "207",
     "properties": {
-      "scale": "16",
-      "clip_3d_skybox_near_to_world_far": "False",
       "clip_3d_skybox_near_to_world_far_offset": "0.000000",
+      "clip_3d_skybox_near_to_world_far": "False",
+      "scale": "16",
       "origin": "-1280.000000 5376.000000 576.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "math_counter",
-    "hammerUniqueId": "287",
-    "targetname": "[PR#]NG",
-    "properties": {
-      "startdisabled": "False",
-      "startvalue": "0",
-      "min": "0",
-      "max": "0",
-      "origin": "-1079.528931 5586.136719 736.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -73,11 +64,16 @@
     "hammerUniqueId": "359",
     "targetname": "[PR#]default_sky",
     "properties": {
-      "brightnessscale": "1",
-      "tint_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "skyname": "materials/sens_sky/sens_skybox1.vmat",
-      "startdisabled": "False",
       "uselocaloffset": "False",
+      "startdisabled": "False",
+      "skyname": "materials/sens_sky/sens_skybox1.vmat",
+      "tint_color": "207 250 255",
+      "tint_color __RAW_ARRAY__ (UINT64[3])": [
+        207,
+        250,
+        255
+      ],
+      "brightnessscale": "1",
       "origin": "-1171.393066 5944.432129 783.625000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -91,52 +87,67 @@
       "bakedshadowindex": "0",
       "brightness_legacy": "-nan(ind)",
       "brightness_lumens": "0",
-      "ambient_occlusion_proxy_ambient_strength": "1",
-      "ambient_occlusion_proxy_strength_3": "0.4099999964237213",
-      "ambient_occlusion_proxy_strength_2": "0.5299999713897705",
-      "ambient_occlusion_proxy_strength_1": "0.39800000190734863",
-      "ambient_occlusion_proxy_strength_0": "0.5979999899864197",
-      "ambient_occlusion_proxy_cone_angle_3": "0.3522000014781952",
-      "ambient_occlusion_proxy_cone_angle_2": "0.2483000010251999",
-      "ambient_occlusion_proxy_cone_angle_1": "0.35830000042915344",
-      "ambient_occlusion_proxy_cone_angle_0": "0.40720000863075256",
-      "ambient_occlusion_proxy_position_3": "[PR#]0 0 0",
-      "ambient_occlusion_proxy_position_2": "[PR#]0 0 0",
-      "ambient_occlusion_proxy_position_1": "[PR#]0 0 0",
-      "ambient_occlusion_proxy_position_0": "[PR#]0 0 0",
-      "ambient_occlusion_proxy_override": "False",
-      "minroughness": "0",
-      "baked_light_indexing": "True",
-      "clientsideentity": "0",
-      "cascaderenderstaticobj": "-1",
-      "shadowcascaderesolution3": "0",
-      "shadowcascaderesolution2": "4",
-      "shadowcascaderesolution1": "2048",
-      "shadowcascaderesolution0": "4096",
-      "shadowcascadedistance3": "0",
-      "shadowcascadedistance2": "1024",
-      "shadowcascadedistance1": "2048",
-      "shadowcascadedistance0": "4096",
-      "numcascades": "3",
-      "angulardiameter": "1",
-      "brightnessscale": "1",
-      "skyambientbounce": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "skybouncescale": "1",
-      "skytexturescale": "1",
-      "skyintensity": "1",
-      "skycolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "bouncescale": "1",
-      "directlight": "3",
-      "style": "0",
-      "rendertocubemaps": "True",
-      "shadowpriority": "100",
-      "castshadows": "1",
-      "brightness": "1",
-      "color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "enabled": "True",
-      "uselocaloffset": "False",
-      "cascadedistancefade": "0.05000000074505806",
       "cascadecrossfade": "0.10000000149011612",
+      "cascadedistancefade": "0.05000000074505806",
+      "uselocaloffset": "False",
+      "enabled": "True",
+      "color": "220 240 255",
+      "color __RAW_ARRAY__ (UINT64[3])": [
+        220,
+        240,
+        255
+      ],
+      "brightness": "1",
+      "castshadows": "1",
+      "shadowpriority": "100",
+      "rendertocubemaps": "True",
+      "style": "0",
+      "directlight": "3",
+      "bouncescale": "1",
+      "skycolor": "220 240 255",
+      "skycolor __RAW_ARRAY__ (UINT64[3])": [
+        220,
+        240,
+        255
+      ],
+      "skyintensity": "1",
+      "skytexturescale": "1",
+      "skybouncescale": "1",
+      "skyambientbounce": "0 0 0",
+      "skyambientbounce __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "brightnessscale": "1",
+      "angulardiameter": "1",
+      "numcascades": "3",
+      "shadowcascadedistance0": "4096",
+      "shadowcascadedistance1": "2048",
+      "shadowcascadedistance2": "1024",
+      "shadowcascadedistance3": "0",
+      "shadowcascaderesolution0": "4096",
+      "shadowcascaderesolution1": "2048",
+      "shadowcascaderesolution2": "4",
+      "shadowcascaderesolution3": "0",
+      "cascaderenderstaticobj": "-1",
+      "clientsideentity": "0",
+      "baked_light_indexing": "True",
+      "minroughness": "0",
+      "ambient_occlusion_proxy_override": "False",
+      "ambient_occlusion_proxy_position_0": "[PR#]0 0 0",
+      "ambient_occlusion_proxy_position_1": "[PR#]0 0 0",
+      "ambient_occlusion_proxy_position_2": "[PR#]0 0 0",
+      "ambient_occlusion_proxy_position_3": "[PR#]0 0 0",
+      "ambient_occlusion_proxy_cone_angle_0": "0.40720000863075256",
+      "ambient_occlusion_proxy_cone_angle_1": "0.35830000042915344",
+      "ambient_occlusion_proxy_cone_angle_2": "0.2483000010251999",
+      "ambient_occlusion_proxy_cone_angle_3": "0.3522000014781952",
+      "ambient_occlusion_proxy_strength_0": "0.5979999899864197",
+      "ambient_occlusion_proxy_strength_1": "0.39800000190734863",
+      "ambient_occlusion_proxy_strength_2": "0.5299999713897705",
+      "ambient_occlusion_proxy_strength_3": "0.4099999964237213",
+      "ambient_occlusion_proxy_ambient_strength": "1",
       "origin": "-1058.197266 5876.675293 793.901306",
       "angles": "45.000000 101.568985 2.436620",
       "scales": "1.000000 1.000000 1.000000",
@@ -148,18 +159,33 @@
     "hammerUniqueId": "389",
     "properties": {
       "lightprobetexture": "maps\\ze_dark_souls_skybox/lightmaps/env_light_probe_volume_atlas.vtex",
-      "clientsideentity": "1",
-      "edge_fade_dists": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "indoor_outdoor_level": "0",
-      "voxelize": "True",
-      "flood_fill": "True",
-      "voxel_size": "48.000000",
-      "box_maxs": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "box_mins": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "bakefarz": "4096",
-      "cubemaptexture": "maps/ze_dark_souls_skybox/cubemaps/env_cubemap_array.vtex",
-      "startdisabled": "False",
       "uselocaloffset": "False",
+      "startdisabled": "False",
+      "cubemaptexture": "maps/ze_dark_souls_skybox/cubemaps/env_cubemap_array.vtex",
+      "bakefarz": "4096",
+      "box_mins": "-4157.249023 -4016.102539 -758.848572",
+      "box_mins __RAW_ARRAY__ (DOUBLE[3])": [
+        -4157.2490234375,
+        -4016.1025390625,
+        -758.8485717773438
+      ],
+      "box_maxs": "4878.750977 4947.897461 3516.000000",
+      "box_maxs __RAW_ARRAY__ (DOUBLE[3])": [
+        4878.7509765625,
+        4947.8974609375,
+        3516
+      ],
+      "voxel_size": "48.000000",
+      "flood_fill": "True",
+      "voxelize": "True",
+      "indoor_outdoor_level": "0",
+      "edge_fade_dists": "0.000000 0.000000 0.000000",
+      "edge_fade_dists __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "clientsideentity": "1",
       "origin": "-1046.750977 5496.102539 575.999939",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -179,23 +205,33 @@
     "hammerUniqueId": "407",
     "targetname": "[PR#]3DSKY_GOVNILO_particle",
     "properties": {
-      "cpoint7_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "data_cp": "-1",
-      "snapshot_mesh": "0",
-      "no_save": "False",
-      "start_active": "True",
-      "effect_name": "particles/sens/clouds.vpcf",
-      "clientsideentity": "0",
       "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "effect_name": "particles/sens/clouds.vpcf",
+      "start_active": "True",
+      "no_save": "False",
+      "snapshot_mesh": "0",
+      "data_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "tint_cp": "-1",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "cpoint1_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint7_parent": "0",
       "origin": "-518.000000 5983.382812 1665.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -206,60 +242,829 @@
     "hammerUniqueId": "424",
     "targetname": "[PR#]3DSKY_ASYLUM",
     "properties": {
-      "clothscale": "1",
-      "startdisabled": "True",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
       "model": "models/static_obj/asylum_jail.vmdl",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "skin": "default",
+      "solid": "6",
+      "disableshadows": "0",
+      "rendertocubemaps": "True",
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "explodedamage": "0",
+      "exploderadius": "0",
+      "performancemode": "PM_NORMAL",
+      "nointerpolate": "False",
+      "spawnflags": "0",
+      "pressuredelay": "0",
+      "burstscale": "100",
+      "breakablecontentstype": "BC_DEFAULT",
+      "renderfx": "kRenderFxNone",
+      "rendermode": "kRenderNormal",
+      "renderamt": "255",
+      "disablereceiveshadows": "False",
+      "fademindist": "-1",
+      "fademaxdist": "0",
+      "object_culling": "0",
+      "lightmapstatic": "0",
+      "glowstate": "0",
+      "glowrange": "0",
+      "glowrangemin": "0",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowteam": "-1",
+      "disablelowviolence": "0",
+      "use_animgraph": "True",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "randomizecycle": "False",
+      "lagcompensate": "False",
+      "animateonserver": "False",
+      "createnavobstacle": "False",
+      "forcenpcexclude": "False",
+      "startdisabled": "True",
+      "clothscale": "1",
       "origin": "-1448.000000 5080.000000 720.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "0.160000 0.160000 0.160000"
     }
   },
   {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "503",
+    "targetname": "[PR#]3DSKY_sens",
+    "properties": {
+      "model": "models/skybox/skysphere.vmdl",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "skin": "default",
+      "solid": "0",
+      "disableshadows": "3",
+      "rendertocubemaps": "True",
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "explodedamage": "0",
+      "exploderadius": "0",
+      "performancemode": "PM_NORMAL",
+      "nointerpolate": "False",
+      "spawnflags": "0",
+      "pressuredelay": "0",
+      "burstscale": "100",
+      "breakablecontentstype": "BC_DEFAULT",
+      "renderfx": "kRenderFxNone",
+      "rendermode": "kRenderNormal",
+      "renderamt": "255",
+      "disablereceiveshadows": "False",
+      "fademindist": "-1",
+      "fademaxdist": "0",
+      "object_culling": "0",
+      "lightmapstatic": "0",
+      "glowstate": "0",
+      "glowrange": "0",
+      "glowrangemin": "0",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowteam": "-1",
+      "disablelowviolence": "0",
+      "use_animgraph": "True",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "randomizecycle": "False",
+      "lagcompensate": "False",
+      "animateonserver": "False",
+      "createnavobstacle": "False",
+      "forcenpcexclude": "False",
+      "startdisabled": "False",
+      "clothscale": "1",
+      "origin": "-414.000000 6380.312500 428.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "692",
+    "targetname": "[PR#]3DSKY_sens",
+    "properties": {
+      "model": "models/static_obj/3ds_skybox_sens.vmdl",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "skin": "default",
+      "solid": "6",
+      "disableshadows": "0",
+      "rendertocubemaps": "True",
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "explodedamage": "0",
+      "exploderadius": "0",
+      "performancemode": "PM_NORMAL",
+      "nointerpolate": "False",
+      "spawnflags": "0",
+      "pressuredelay": "0",
+      "burstscale": "100",
+      "breakablecontentstype": "BC_DEFAULT",
+      "renderfx": "kRenderFxNone",
+      "rendermode": "kRenderNormal",
+      "renderamt": "255",
+      "disablereceiveshadows": "False",
+      "fademindist": "-1",
+      "fademaxdist": "0",
+      "object_culling": "0",
+      "lightmapstatic": "0",
+      "glowstate": "0",
+      "glowrange": "0",
+      "glowrangemin": "0",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowteam": "-1",
+      "disablelowviolence": "0",
+      "use_animgraph": "True",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "randomizecycle": "False",
+      "lagcompensate": "False",
+      "animateonserver": "False",
+      "createnavobstacle": "False",
+      "forcenpcexclude": "False",
+      "startdisabled": "False",
+      "clothscale": "1",
+      "origin": "-1654.624512 6186.530273 1017.258423",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "694",
+    "targetname": "[PR#]3DSKY_GOVNILO_particle",
+    "properties": {
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "effect_name": "particles/sens/clouds.vpcf",
+      "start_active": "True",
+      "no_save": "False",
+      "snapshot_mesh": "0",
+      "data_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "tint_cp": "-1",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "cpoint1_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint7_parent": "0",
+      "origin": "-518.000000 6412.375000 2704.625000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "695",
+    "targetname": "[PR#]3DSKY_GOVNILO_particle",
+    "properties": {
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "effect_name": "particles/sens/clouds.vpcf",
+      "start_active": "True",
+      "no_save": "False",
+      "snapshot_mesh": "0",
+      "data_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "tint_cp": "-1",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "cpoint1_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint7_parent": "0",
+      "origin": "-518.000000 5983.382812 2003.250000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "705",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-1040.308228 5130.000000 672.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "706",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-1040.308228 5482.000000 672.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "707",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-309.070129 6256.000000 512.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "708",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-309.070129 6730.000000 512.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "709",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-880.000000 7006.000000 512.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "710",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-880.000000 7542.000000 882.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "711",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-1023.670776 6619.403320 760.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "712",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-460.000000 4564.000000 1000.767334",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "713",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-916.000000 4564.000000 842.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "714",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-1372.000000 4632.000000 754.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "715",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "-1",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-1040.308228 6174.000000 672.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "717",
+    "targetname": "[PR#]3DSKY_GOVNILO",
+    "properties": {
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "model": "models/static_obj/3ds_skybox_flame.vmdl",
+      "skin": "default",
+      "disableshadows": "1",
+      "explodedamage": "0",
+      "exploderadius": "0",
+      "performancemode": "PM_NORMAL",
+      "nointerpolate": "False",
+      "spawnflags": "0",
+      "pressuredelay": "0",
+      "burstscale": "100",
+      "breakablecontentstype": "BC_DEFAULT",
+      "renderfx": "kRenderFxNone",
+      "rendermode": "kRenderNormal",
+      "renderamt": "255",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "disablereceiveshadows": "False",
+      "fademindist": "-1",
+      "fademaxdist": "0",
+      "object_culling": "0",
+      "rendertocubemaps": "False",
+      "lightmapstatic": "0",
+      "glowstate": "0",
+      "glowrange": "0",
+      "glowrangemin": "0",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UINT64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowteam": "-1",
+      "solid": "6",
+      "disablelowviolence": "0",
+      "use_animgraph": "True",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "randomizecycle": "False",
+      "lagcompensate": "False",
+      "animateonserver": "False",
+      "createnavobstacle": "False",
+      "forcenpcexclude": "False",
+      "startdisabled": "True",
+      "clothscale": "1",
+      "origin": "-1785.812500 6283.312500 1642.375000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "719",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/ambient/sun.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "2252.642822 2952.480957 3527.064697",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "724",
+    "targetname": "[PR#]3DSKY_GOVNILO_particle",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/ambient/sun3.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "2282.642822 2942.480957 3480.064697",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "723",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UINT64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (DOUBLE[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "True",
+      "effect_name": "particles/ambient/sun2.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "2282.642822 2942.480957 3480.064697",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
     "classname": "math_counter",
-    "hammerUniqueId": "425",
+    "hammerUniqueId": "725",
     "targetname": "[PR#]FCS_SetMaxHealth",
     "properties": {
-      "max": "20",
-      "min": "0",
-      "startvalue": "0",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "20",
       "origin": "-1047.458008 5617.401367 764.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -277,13 +1082,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "426",
+    "hammerUniqueId": "726",
     "targetname": "[PR#]FCS_SetHealth",
     "properties": {
-      "max": "20",
-      "min": "0",
-      "startvalue": "0",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "20",
       "origin": "-1047.458008 5617.401367 744.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -301,13 +1106,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "427",
+    "hammerUniqueId": "727",
     "targetname": "[PR#]DO_Boss_Damage_Golem",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "575",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-939.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -320,18 +1125,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "575",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "428",
+    "hammerUniqueId": "728",
     "targetname": "[PR#]DO_Boss_Damage_Gwyn",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "600",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-923.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -352,18 +1173,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "600",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "429",
+    "hammerUniqueId": "729",
     "targetname": "[PR#]GHSA_Boss_Damage_Gwyn",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "375",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-923.000000 5674.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -384,18 +1221,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "325",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "430",
+    "hammerUniqueId": "730",
     "targetname": "[PR#]GHSA_Boss_Damage_Golem",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "350",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-939.000000 5674.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -408,18 +1261,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "300",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "431",
+    "hammerUniqueId": "731",
     "targetname": "[PR#]FB_Boss_Damage_Golem",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "325",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-939.000000 5658.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -432,18 +1301,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "275",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "432",
+    "hammerUniqueId": "732",
     "targetname": "[PR#]FB_Boss_Damage_Gwyn",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "275",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-923.000000 5658.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -464,18 +1349,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "275",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "433",
+    "hammerUniqueId": "733",
     "targetname": "[PR#]WDB_Boss_Damage_Golem",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "300",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-939.000000 5642.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -488,18 +1389,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "180",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "434",
+    "hammerUniqueId": "734",
     "targetname": "[PR#]CHST_Boss_Damage_Golem",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "875",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-939.000000 5626.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -512,18 +1429,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "875",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "435",
+    "hammerUniqueId": "735",
     "targetname": "[PR#]WDB_Boss_Damage_Broodmother",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "250",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-955.000000 5642.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -536,18 +1469,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "100",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "436",
+    "hammerUniqueId": "736",
     "targetname": "[PR#]WDB_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "450",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5642.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -560,18 +1509,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "450",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "437",
+    "hammerUniqueId": "737",
     "targetname": "[PR#]CHST_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "1000",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5626.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -584,18 +1549,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "1000",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "438",
+    "hammerUniqueId": "738",
     "targetname": "[PR#]FB_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "550",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5658.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -608,18 +1589,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "550",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "439",
+    "hammerUniqueId": "739",
     "targetname": "[PR#]GHSA_Boss_Damage_Broodmother",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "325",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-955.000000 5674.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -632,18 +1629,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "325",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "440",
+    "hammerUniqueId": "740",
     "targetname": "[PR#]GHSA_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "425",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5674.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -656,18 +1669,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "425",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "441",
+    "hammerUniqueId": "741",
     "targetname": "[PR#]DO_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "625",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -680,18 +1709,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "625",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "442",
+    "hammerUniqueId": "742",
     "targetname": "[PR#]DO_Boss_Damage_Broodmother",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "550",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-955.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -704,18 +1749,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "550",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "443",
+    "hammerUniqueId": "743",
     "targetname": "[PR#]LS_Boss_Damage_Broodmother",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "275",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-955.000000 5706.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -728,18 +1789,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "275",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "444",
+    "hammerUniqueId": "744",
     "targetname": "[PR#]LS_Boss_Damage_Asylum_Demon",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "325",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-971.000000 5706.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -752,18 +1829,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "325",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "445",
+    "hammerUniqueId": "745",
     "targetname": "[PR#]Salad_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-844.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -774,6 +1867,22 @@
         "target": "[PR#]Item_Salad_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_Salad_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -781,13 +1890,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "446",
+    "hammerUniqueId": "746",
     "targetname": "[PR#]SS_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-796.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -798,6 +1907,22 @@
         "target": "[PR#]Item_SS_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_SS_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -805,13 +1930,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "447",
+    "hammerUniqueId": "747",
     "targetname": "[PR#]BF_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "3",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-812.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -822,6 +1947,22 @@
         "target": "[PR#]Item_BF_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_BF_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "5",
         "delay": 0,
         "limit": -1
       }
@@ -829,15 +1970,15 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "448",
+    "hammerUniqueId": "748",
     "targetname": "[PR#]PM_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-828.067871 5728.000000 752.000000",
-      "angles": "0.000000 180.000000 0.000000",
+      "angles": "0.000000 180.000015 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
     "connections": [
@@ -846,6 +1987,22 @@
         "target": "[PR#]Item_PM_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_PM_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -853,13 +2010,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "449",
+    "hammerUniqueId": "749",
     "targetname": "[PR#]DO_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "3",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-860.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -870,6 +2027,22 @@
         "target": "[PR#]Item_DO_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_DO_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "3",
         "delay": 0,
         "limit": -1
       }
@@ -877,13 +2050,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "450",
+    "hammerUniqueId": "750",
     "targetname": "[PR#]GHSA_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "5",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-780.067871 5728.000000 752.000000",
       "angles": "0.000000 90.000076 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -894,6 +2067,22 @@
         "target": "[PR#]Item_GHSA_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_GHSA_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "5",
         "delay": 0,
         "limit": -1
       }
@@ -901,13 +2090,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "451",
+    "hammerUniqueId": "751",
     "targetname": "[PR#]GR_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-716.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -918,6 +2107,22 @@
         "target": "[PR#]Item_GR_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_GR_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -925,23 +2130,39 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "452",
+    "hammerUniqueId": "752",
     "targetname": "[PR#]FB_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "5",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-732.067871 5728.000000 752.000000",
-      "angles": "0.000000 89.999901 0.000000",
+      "angles": "0.000000 89.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
     "connections": [
       {
         "output": "OnGetValue",
-        "target": "[PR#]Item_FB_Counter",
+        "target": "[PR#]Item_FB_Counter*",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_FB_Counter*",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "5",
         "delay": 0,
         "limit": -1
       }
@@ -949,13 +2170,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "453",
+    "hammerUniqueId": "753",
     "targetname": "[PR#]WDB_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "1",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-748.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -966,6 +2187,22 @@
         "target": "[PR#]Item_WDB_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_WDB_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "1",
         "delay": 0,
         "limit": -1
       }
@@ -973,13 +2210,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "454",
+    "hammerUniqueId": "754",
     "targetname": "[PR#]LS_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "5",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-764.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -990,6 +2227,22 @@
         "target": "[PR#]Item_LS_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_LS_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "5",
         "delay": 0,
         "limit": -1
       }
@@ -997,13 +2250,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "455",
+    "hammerUniqueId": "755",
     "targetname": "[PR#]WOTG_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "3",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-668.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1014,6 +2267,22 @@
         "target": "[PR#]Item_WOTG_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_WOTG_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "3",
         "delay": 0,
         "limit": -1
       }
@@ -1021,13 +2290,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "456",
+    "hammerUniqueId": "756",
     "targetname": "[PR#]PW_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "3",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-684.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1038,6 +2307,22 @@
         "target": "[PR#]Item_PW_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_PW_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "6",
         "delay": 0,
         "limit": -1
       }
@@ -1045,13 +2330,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "457",
+    "hammerUniqueId": "757",
     "targetname": "[PR#]GA_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-700.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1062,6 +2347,22 @@
         "target": "[PR#]Item_GA_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_GA_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -1069,13 +2370,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "458",
+    "hammerUniqueId": "758",
     "targetname": "[PR#]EF_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "5",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-876.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1086,6 +2387,22 @@
         "target": "[PR#]Item_EF_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_EF_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "SetValue",
+        "param": "3",
         "delay": 0,
         "limit": -1
       }
@@ -1093,13 +2410,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "459",
+    "hammerUniqueId": "759",
     "targetname": "[PR#]TM_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-604.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1110,6 +2427,22 @@
         "target": "[PR#]Item_TM_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_TM_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -1117,13 +2450,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "460",
+    "hammerUniqueId": "760",
     "targetname": "[PR#]ChSt_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "1",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-652.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1134,6 +2467,22 @@
         "target": "[PR#]Item_ChSt_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_ChSt_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "1",
         "delay": 0,
         "limit": -1
       }
@@ -1141,13 +2490,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "461",
+    "hammerUniqueId": "761",
     "targetname": "[PR#]DaSt_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "1",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-636.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1158,6 +2507,22 @@
         "target": "[PR#]Item_DaSt_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_DaSt_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "1",
         "delay": 0,
         "limit": -1
       }
@@ -1165,13 +2530,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "462",
+    "hammerUniqueId": "762",
     "targetname": "[PR#]HiBo_Reset_Counter",
     "properties": {
-      "max": "9999",
-      "min": "0",
-      "startvalue": "2",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
       "origin": "-620.067871 5728.000000 752.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1182,6 +2547,22 @@
         "target": "[PR#]Item_HiBo_Counter",
         "input": "SetValue",
         "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Item_HiBo_Counter",
+        "input": "SetHitMax",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -1189,13 +2570,13 @@
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "465",
+    "hammerUniqueId": "763",
     "targetname": "[PR#]Level_Counter",
     "properties": {
-      "max": "2",
-      "min": "0",
-      "startvalue": "0",
       "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "2",
       "origin": "-971.000000 5594.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1208,18 +2589,26 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]FCS_Tottal",
+        "input": "Add",
+        "param": "2",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "466",
+    "hammerUniqueId": "764",
     "targetname": "[PR#]DO_NPC_Damage_KNIGHT",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "1900",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-896.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1232,18 +2621,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2850",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "467",
+    "hammerUniqueId": "765",
     "targetname": "[PR#]GHSA_NPC_Damage_KNIGHT",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "850",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-896.000000 5674.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1256,18 +2661,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "1275",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "468",
+    "hammerUniqueId": "766",
     "targetname": "[PR#]LS_NPC_Damage_KNIGHT",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "1500",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-896.000000 5706.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1280,18 +2701,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2250",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "469",
+    "hammerUniqueId": "767",
     "targetname": "[PR#]DO_NPC_Damage_Borov",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "2500",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-880.000000 5690.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1304,18 +2741,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2500",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "470",
+    "hammerUniqueId": "768",
     "targetname": "[PR#]FB_NPC_Damage_Borov",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "850",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-880.000000 5658.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1328,18 +2781,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "900",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "471",
+    "hammerUniqueId": "769",
     "targetname": "[PR#]CHST_NPC_Damage_Borov",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "1450",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-880.000000 5626.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1352,18 +2821,34 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "2000",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "473",
+    "hammerUniqueId": "770",
     "targetname": "[PR#]WDB_NPC_Damage_KNIGHT",
     "properties": {
-      "max": "0",
-      "min": "0",
-      "startvalue": "450",
       "startdisabled": "False",
+      "startvalue": "1",
+      "min": "0",
+      "max": "0",
       "origin": "-896.000000 5642.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1376,173 +2861,35 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "675",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "503",
-    "targetname": "[PR#]3DSKY_sens",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "rendertocubemaps": "True",
-      "disableshadows": "3",
-      "solid": "0",
-      "skin": "default",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "model": "models/skybox/skysphere.vmdl",
-      "origin": "-414.000000 6380.312500 428.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "692",
-    "targetname": "[PR#]3DSKY_sens",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "model": "models/static_obj/3ds_skybox_sens.vmdl",
-      "origin": "-1654.624512 6186.530273 1017.258423",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "694",
-    "targetname": "[PR#]3DSKY_GOVNILO_particle",
-    "properties": {
-      "cpoint7_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "data_cp": "-1",
-      "snapshot_mesh": "0",
-      "no_save": "False",
-      "start_active": "True",
-      "effect_name": "particles/sens/clouds.vpcf",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "origin": "-518.000000 6412.375000 2704.625000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "695",
-    "targetname": "[PR#]3DSKY_GOVNILO_particle",
-    "properties": {
-      "cpoint7_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint1_parent": "0",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "data_cp": "-1",
-      "snapshot_mesh": "0",
-      "no_save": "False",
-      "start_active": "True",
-      "effect_name": "particles/sens/clouds.vpcf",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "origin": "-518.000000 5983.382812 2003.250000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
     "classname": "math_counter",
-    "hammerUniqueId": "699",
+    "hammerUniqueId": "771",
     "targetname": "[PR#]LS_Boss_Damage_Clown",
     "properties": {
       "startdisabled": "False",
-      "startvalue": "10",
+      "startvalue": "1",
       "min": "0",
       "max": "0",
-      "origin": "-864.000000 5706.000000 744.000000",
+      "origin": "-865.000000 5706.000000 744.000000",
       "angles": "0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -1554,16 +2901,32 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "5",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "10",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
     "classname": "math_counter",
-    "hammerUniqueId": "704",
+    "hammerUniqueId": "772",
     "targetname": "[PR#]GHSA_Boss_Damage_Clown",
     "properties": {
       "startdisabled": "False",
-      "startvalue": "15",
+      "startvalue": "1",
       "min": "0",
       "max": "0",
       "origin": "-864.000000 5674.000000 744.000000",
@@ -1578,348 +2941,28 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "10",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "15",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "705",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-1040.308228 5130.000000 672.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "706",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-1040.308228 5482.000000 672.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "707",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-309.070129 6256.000000 512.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "708",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-309.070129 6730.000000 512.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "709",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-880.000000 7006.000000 512.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "710",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-880.000000 7542.000000 882.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "711",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-1023.670776 6619.403320 760.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "712",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-460.000000 4564.000000 1000.767334",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "713",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-916.000000 4564.000000 842.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "714",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-1372.000000 4632.000000 754.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "715",
-    "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/maps/gg_vietnam/vietnam_fog_volume_1024_512.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "-1",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "-1040.308228 6174.000000 672.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "717",
-    "targetname": "[PR#]3DSKY_GOVNILO",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "True",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "solid": "6",
-      "glowteam": "-1",
-      "glowcolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "rendertocubemaps": "False",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "rendercolor": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "disableshadows": "1",
-      "skin": "default",
-      "model": "models/static_obj/3ds_skybox_flame.vmdl",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "origin": "-1785.812500 6283.312500 1642.375000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
     "classname": "math_counter",
-    "hammerUniqueId": "718",
+    "hammerUniqueId": "773",
     "targetname": "[PR#]NG_Counter",
     "properties": {
       "startdisabled": "False",
@@ -1937,14 +2980,6 @@
         "input": "SetMessage",
         "param": "",
         "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnGetValue",
-        "target": "[PR#]NG_Case",
-        "input": "InValue",
-        "param": "",
-        "delay": 0.02,
         "limit": -1
       },
       {
@@ -2090,86 +3125,1471 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]NG_Case",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]NG_NPC_Extra_HP_SLIME",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]NG_NPC_Extra_HP_SLIME",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
   {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "719",
+    "classname": "math_counter",
+    "hammerUniqueId": "774",
+    "targetname": "[PR#]FCS_SetBonfire",
     "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/ambient/sun.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "0",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "2252.642822 2952.480957 3527.064697",
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "20",
+      "origin": "-1047.458008 5617.401367 780.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_SetBonfire_Case",
+        "input": "InValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   },
   {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "724",
-    "targetname": "[PR#]3DSKY_GOVNILO_particle",
+    "classname": "math_counter",
+    "hammerUniqueId": "775",
+    "targetname": "[PR#]FMB_Tottal",
     "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/ambient/sun3.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "0",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "2282.642822 2942.480957 3480.064697",
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
+      "origin": "-1048.750000 5590.850586 760.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Broodmother",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_NPC_Damage_KNIGHT",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Clown",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Broodmother",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Golem",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Gwyn",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_NPC_Damage_KNIGHT",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_NPC_Damage_Borov",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Broodmother",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Golem",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Gwyn",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_NPC_Damage_KNIGHT",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Clown",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Golem",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Gwyn",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_NPC_Damage_Borov",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Broodmother",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Golem",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_NPC_Damage_KNIGHT",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_Boss_Damage_Asylum_Demon",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_Boss_Damage_Golem",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_NPC_Damage_Borov",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Broodmother",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_NPC_Damage_KNIGHT",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Boss_Damage_Clown",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Broodmother",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Golem",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Boss_Damage_Gwyn",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_NPC_Damage_KNIGHT",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_NPC_Damage_Borov",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Broodmother",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Golem",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Gwyn",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_NPC_Damage_KNIGHT",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Boss_Damage_Clown",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Golem",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Boss_Damage_Gwyn",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_NPC_Damage_Borov",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Broodmother",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Boss_Damage_Golem",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_NPC_Damage_KNIGHT",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_Boss_Damage_Asylum_Demon",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_Boss_Damage_Golem",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_NPC_Damage_Borov",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FMB_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FMB_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PM_FMB_Item",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PM_FMB_Item",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]BF_FMB_Item",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]BF_FMB_Item",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]TM_FMB_Item",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]TM_FMB_Item",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_NPC_Damage_SLIME",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_NPC_Damage_SLIME",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_NPC_Damage_SLIME",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_NPC_Damage_SLIME",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_NPC_Damage_SLIME",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]CHST_NPC_Damage_SLIME",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
   },
   {
-    "classname": "info_particle_system",
-    "hammerUniqueId": "723",
+    "classname": "math_counter",
+    "hammerUniqueId": "776",
+    "targetname": "[PR#]FCS_Tottal",
     "properties": {
-      "uselocaloffset": "False",
-      "clientsideentity": "0",
-      "effect_name": "particles/ambient/sun2.vpcf",
-      "start_active": "True",
-      "no_save": "False",
-      "snapshot_mesh": "0",
-      "data_cp": "-1",
-      "data_cp_value": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "tint_cp": "-1",
-      "tint_cp_color": "ValveResourceFormat.Serialization.KeyValues.KVObject",
-      "cpoint1_parent": "0",
-      "cpoint2_parent": "0",
-      "cpoint3_parent": "0",
-      "cpoint4_parent": "0",
-      "cpoint5_parent": "0",
-      "cpoint6_parent": "0",
-      "cpoint7_parent": "0",
-      "origin": "2282.642822 2942.480957 3480.064697",
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "20",
+      "origin": "-1048.750000 5590.850586 744.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_SetHealth",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_SetMaxHealth",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_SetBonfire",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FCS_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "777",
+    "targetname": "[PR#]Flame_Tottal",
+    "properties": {
+      "max": "9999",
+      "min": "0",
+      "startvalue": "0",
+      "startdisabled": "False",
+      "origin": "-1040.000000 5552.000000 736.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]ChSt_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]TM_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PM_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]FB_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]ChSt_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]TM_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PM_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Flame_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Flame_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "778",
+    "targetname": "[PR#]Magic_Tottal",
+    "properties": {
+      "max": "9999",
+      "min": "0",
+      "startvalue": "0",
+      "startdisabled": "False",
+      "origin": "-1024.000000 5552.000000 736.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]HiBo_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PW_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Salad_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GHSA_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]HiBo_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PW_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Salad_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WDB_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Magic_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Magic_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "779",
+    "targetname": "[PR#]Divine_Tottal",
+    "properties": {
+      "max": "9999",
+      "min": "0",
+      "startvalue": "0",
+      "startdisabled": "False",
+      "origin": "-1024.000000 5536.000000 736.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GA_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]SS_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WOTG_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GR_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GA_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]LS_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]SS_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]WOTG_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]GR_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Divine_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Divine_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]EF_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "780",
+    "targetname": "[PR#]Dark_Tottal",
+    "properties": {
+      "max": "9999",
+      "min": "0",
+      "startvalue": "0",
+      "startdisabled": "False",
+      "origin": "-1040.000000 5536.000000 736.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DaSt_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]BF_Reset_Counter",
+        "input": "SetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DaSt_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]DO_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]BF_Reset_Counter",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Dark_TEXT_DISPLAY",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Dark_BUTTON_CASE",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "785",
+    "targetname": "[PR#]PM_FMB_Item",
+    "properties": {
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
+      "origin": "-1026.776123 5575.269531 848.000000",
+      "angles": "0.000000 180.000076 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "20",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]PM_Trigger*",
+        "input": "SetDamage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "10",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "786",
+    "targetname": "[PR#]BF_FMB_Item",
+    "properties": {
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
+      "origin": "-1010.776123 5575.269531 848.000000",
+      "angles": "0.000000 270.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "50",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]BF_Hurt*",
+        "input": "SetDamage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "10",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "787",
+    "targetname": "[PR#]TM_FMB_Item",
+    "properties": {
+      "startdisabled": "False",
+      "startvalue": "0",
+      "min": "0",
+      "max": "9999",
+      "origin": "-994.776123 5575.269531 848.000000",
+      "angles": "0.000000 270.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "20",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]TM_Trigger*",
+        "input": "SetDamage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "10",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "788",
+    "targetname": "[PR#]GHSA_NPC_Damage_SLIME",
+    "properties": {
+      "max": "0",
+      "min": "0",
+      "startvalue": "1",
+      "startdisabled": "False",
+      "origin": "-848.000000 5674.000000 744.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]slime_hitbox_setdamage",
+        "input": "RemoveHealth",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "4800",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "789",
+    "targetname": "[PR#]FB_NPC_Damage_SLIME",
+    "properties": {
+      "max": "0",
+      "min": "0",
+      "startvalue": "1",
+      "startdisabled": "False",
+      "origin": "-848.000000 5658.000000 744.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]slime_hitbox_setdamage",
+        "input": "RemoveHealth",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "7500",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "790",
+    "targetname": "[PR#]CHST_NPC_Damage_SLIME",
+    "properties": {
+      "max": "0",
+      "min": "0",
+      "startvalue": "1",
+      "startdisabled": "False",
+      "origin": "-848.000000 5626.000000 744.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]slime_hitbox_setdamage",
+        "input": "RemoveHealth",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Multiply",
+        "param": "50",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Add",
+        "param": "9850",
+        "delay": 0.02,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "791",
+    "targetname": "[PR#]ADMIN_ABUSE_FCS",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "True",
+      "triggeronce": "False",
+      "startdisabled": "True",
+      "origin": "-946.897400 5707.759766 784.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say *** Admin Abuse: FCS ***",
+        "delay": 0.3,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]ADMIN_ABUSE_FCS",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]ADMIN_ABUSE_FMB",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]ADMIN_ABUSE_EMBER",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 1.2,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "792",
+    "targetname": "[PR#]ADMIN_ABUSE_FMB",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "True",
+      "triggeronce": "False",
+      "startdisabled": "True",
+      "origin": "-930.897400 5707.759766 784.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say *** Admin Abuse: Lizard ***",
+        "delay": 0.6,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "793",
+    "targetname": "[PR#]ADMIN_ABUSE_EMBER",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "True",
+      "triggeronce": "False",
+      "startdisabled": "True",
+      "origin": "-914.897400 5707.759766 784.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say *** Admin Abuse: Embers ***",
+        "delay": 0.9,
+        "limit": -1
+      }
+    ]
   }
 ]

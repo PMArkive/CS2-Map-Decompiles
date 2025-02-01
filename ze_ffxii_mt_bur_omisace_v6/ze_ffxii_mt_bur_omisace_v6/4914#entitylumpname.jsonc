@@ -413,7 +413,7 @@
         "target": "[PR#]Weapon_zm_invisible_Effect2",
         "input": "Stop",
         "param": "",
-        "delay": 3,
+        "delay": 1,
         "limit": -1
       },
       {
@@ -455,7 +455,7 @@
       "snapshot_mesh": "0",
       "no_save": "False",
       "start_active": "False",
-      "effect_name": "particles/omisace_v6/zm_invisible_item_002.vpcf",
+      "effect_name": "particles/omisace_v6/custom_particle_038b.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_zm_invisible",

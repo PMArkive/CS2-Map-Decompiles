@@ -412,14 +412,6 @@
       },
       {
         "output": "OnStartTouch",
-        "target": "[PR#]Map_Score_Add",
-        "input": "ApplyScore",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
         "target": "!self",
         "input": "Disable",
         "param": "",

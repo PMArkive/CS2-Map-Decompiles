@@ -623,14 +623,6 @@
       },
       {
         "output": "OnFullyOpen",
-        "target": "[PR#]Maker_attack",
-        "input": "KeyValue",
-        "param": "EntityTemplate 3_Laser_Temp",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
         "target": "[PR#]ending_drace2_laser_case",
         "input": "FireUser1",
         "param": "",
@@ -764,6 +756,30 @@
         "param": "[PR#]ending_drace2_laser_model",
         "delay": 0.02,
         "limit": -1
+      },
+      {
+        "output": "OnFullyOpen",
+        "target": "[PR#]Airship_escape_ct_invis",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnFullyOpen",
+        "target": "[PR#]Airship_escape_ct_invis",
+        "input": "Disable",
+        "param": "",
+        "delay": 6,
+        "limit": -1
+      },
+      {
+        "output": "OnFullyOpen",
+        "target": "[PR#]Maker_attack",
+        "input": "KeyValue",
+        "param": "EntityTemplate 3_Laser_Temp",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -895,7 +911,7 @@
         "output": "OnCase04",
         "target": "[PR#]Maker_attack",
         "input": "KeyValue",
-        "param": "origin 13564.5 2421 10624",
+        "param": "origin 13564.5 2421 10630",
         "delay": 0,
         "limit": -1
       },

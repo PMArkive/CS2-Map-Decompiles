@@ -681,7 +681,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "99999",
+      "dmg": "50",
       "lip": "10",
       "wait": "-1",
       "noise2": "Ambient.DoorStop",
@@ -730,7 +730,7 @@
       "health": "0",
       "ignoredebris": "False",
       "forceclosed": "False",
-      "dmg": "99999",
+      "dmg": "50",
       "lip": "10",
       "wait": "-1",
       "noise2": "Ambient.DoorStop",
@@ -1224,7 +1224,7 @@
       "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
       "use_animgraph": "True",
       "disablelowviolence": "0",
-      "solid": "6",
+      "solid": "0",
       "glowteam": "-1",
       "glowcolor": "0 0 0",
       "glowcolor __RAW_ARRAY__ (UINT64[3])": [
@@ -1292,7 +1292,7 @@
       "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
       "use_animgraph": "True",
       "disablelowviolence": "0",
-      "solid": "6",
+      "solid": "0",
       "glowteam": "-1",
       "glowcolor": "0 0 0",
       "glowcolor __RAW_ARRAY__ (UINT64[3])": [
@@ -1360,7 +1360,7 @@
       "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
       "use_animgraph": "True",
       "disablelowviolence": "0",
-      "solid": "6",
+      "solid": "0",
       "glowteam": "-1",
       "glowcolor": "0 0 0",
       "glowcolor __RAW_ARRAY__ (UINT64[3])": [
@@ -1428,7 +1428,7 @@
       "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
       "use_animgraph": "True",
       "disablelowviolence": "0",
-      "solid": "6",
+      "solid": "0",
       "glowteam": "-1",
       "glowcolor": "0 0 0",
       "glowcolor __RAW_ARRAY__ (UINT64[3])": [
@@ -1990,7 +1990,7 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]stage4_skybox_ship_engine_part",
+        "target": "[PR#]zstage4_skybox_ship_engine_part",
         "input": "Stop",
         "param": "",
         "delay": 0,
@@ -3004,7 +3004,7 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]stage4_teleport_005-1",
+        "target": "[PR#]tp_stage4_fix_3",
         "input": "Enable",
         "param": "",
         "delay": 5,
@@ -3262,7 +3262,7 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]stage4_skybox_ship_engine_part",
+        "target": "[PR#]zstage4_skybox_ship_engine_part",
         "input": "Start",
         "param": "",
         "delay": 36,
@@ -3410,6 +3410,14 @@
         "input": "Enable",
         "param": "",
         "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]zstage4_ending_part",
+        "input": "Start",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -3567,7 +3575,7 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]stage4_skybox_ship_engine_part",
+        "target": "[PR#]zstage4_skybox_ship_engine_part",
         "input": "Start",
         "param": "",
         "delay": 36,
@@ -3708,6 +3716,14 @@
         "param": "",
         "delay": 38.5,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]WorldLayerVIS_Relay2",
+        "input": "Trigger",
+        "param": "",
+        "delay": 40,
+        "limit": 1
       }
     ]
   },
@@ -4780,6 +4796,30 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]music_case",
+        "input": "AddOutput",
+        "param": "OnCase03>music>SetSoundEventName>Music.ColourFast>0.01>1",
+        "delay": 0.06,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]music_case",
+        "input": "AddOutput",
+        "param": "OnCase03>music>StartSound>>0.02>1",
+        "delay": 0.06,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]music_case",
+        "input": "AddOutput",
+        "param": "OnCase03>music>StopSound>>0.00>1",
+        "delay": 0.06,
+        "limit": -1
       }
     ]
   },
@@ -5083,7 +5123,7 @@
     "targetname": "[PR#]stage4_teleport_004-1",
     "properties": {
       "uselocaloffset": "False",
-      "origin": "2192.000000 -551.000000 11121.000000",
+      "origin": "2192.000000 -628.000000 11121.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "78"
@@ -5095,7 +5135,7 @@
     "targetname": "[PR#]stage4_teleport_004-2",
     "properties": {
       "uselocaloffset": "False",
-      "origin": "2192.000000 758.000000 11121.000000",
+      "origin": "2192.000000 838.000000 11121.000000",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "79"

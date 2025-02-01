@@ -430,6 +430,78 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS4",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS5",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS6",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS7",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS8",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS9",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]TempleVIS10",
+        "input": "Kill",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]Stage0VIS_Relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 2,
+        "limit": 1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]WorldLayerVIS_Relay2",
+        "input": "Trigger",
+        "param": "",
+        "delay": 16,
+        "limit": 1
       }
     ]
   }

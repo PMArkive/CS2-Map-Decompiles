@@ -550,19 +550,47 @@
       },
       {
         "output": "OnStartTouch",
-        "target": "[PR#]Map_Score_Add",
-        "input": "ApplyScore",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
         "target": "!self",
         "input": "Disable",
         "param": "",
         "delay": 0.5,
         "limit": 1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "24991",
+    "targetname": "[PR#]Airship_escape_ct_invis",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]ct",
+      "spawnflags": "1",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Ending_ship2_tracktrain",
+      "origin": "79.000000 -1.000000 25.700195",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps\\ze_ffxii_mt_bur_omisace_v6\\entities\\Airship_escape_ct_invis_24991.vmdl",
+      "_template_lump_ent_index": "12"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "80",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "255",
+        "delay": 0,
+        "limit": -1
       }
     ]
   }
