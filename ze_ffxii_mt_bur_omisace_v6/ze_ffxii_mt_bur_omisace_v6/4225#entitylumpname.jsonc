@@ -330,7 +330,7 @@
         "target": "[PR#]Airship_escape_ct_once",
         "input": "Enable",
         "param": "",
-        "delay": 2,
+        "delay": 2.5,
         "limit": 1
       },
       {
@@ -580,7 +580,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "Alpha",
-        "param": "80",
+        "param": "70",
         "delay": 0,
         "limit": -1
       },

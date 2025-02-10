@@ -1116,7 +1116,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
-        "param": "1,163",
+        "param": "1,133",
         "delay": 0,
         "limit": -1
       }

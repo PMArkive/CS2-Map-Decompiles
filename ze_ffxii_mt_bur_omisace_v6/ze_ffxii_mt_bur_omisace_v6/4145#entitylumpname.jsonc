@@ -578,7 +578,7 @@
         "target": "[PR#]sound",
         "input": "StartSound",
         "param": "",
-        "delay": 0.03,
+        "delay": 0.53,
         "limit": -1
       },
       {
@@ -626,7 +626,7 @@
         "target": "[PR#]ending_drace2_laser_case",
         "input": "FireUser1",
         "param": "",
-        "delay": 1.7,
+        "delay": 2.2,
         "limit": -1
       },
       {
@@ -634,7 +634,7 @@
         "target": "[PR#]ending_drace2_laser_case",
         "input": "FireUser1",
         "param": "",
-        "delay": 2.7,
+        "delay": 3.2,
         "limit": -1
       },
       {
@@ -642,7 +642,7 @@
         "target": "[PR#]ending_drace2_laser_case",
         "input": "FireUser1",
         "param": "",
-        "delay": 3.8,
+        "delay": 4.3,
         "limit": -1
       },
       {
@@ -730,7 +730,7 @@
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
         "param": "0.500000",
-        "delay": 0,
+        "delay": 0.5,
         "limit": -1
       },
       {
@@ -738,7 +738,7 @@
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
         "param": "0.800000",
-        "delay": 2,
+        "delay": 2.5,
         "limit": -1
       },
       {

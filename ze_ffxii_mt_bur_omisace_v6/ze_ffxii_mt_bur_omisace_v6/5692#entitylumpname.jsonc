@@ -553,6 +553,22 @@
         "param": "",
         "delay": 9.02,
         "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]zr_toggle_respawn",
+        "input": "Disable",
+        "param": "",
+        "delay": 13,
+        "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]zr_toggle_respawn",
+        "input": "Enable",
+        "param": "",
+        "delay": 17,
+        "limit": -1
       }
     ]
   },

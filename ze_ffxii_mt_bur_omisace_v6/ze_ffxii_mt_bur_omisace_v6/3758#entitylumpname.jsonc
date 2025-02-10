@@ -124,7 +124,7 @@
         "output": "OnHurtPlayer",
         "target": "[PR#]bosshp_script_Adrammelech",
         "input": "ChangeHealthIt",
-        "param": "51",
+        "param": "49",
         "delay": 0,
         "limit": -1
       }

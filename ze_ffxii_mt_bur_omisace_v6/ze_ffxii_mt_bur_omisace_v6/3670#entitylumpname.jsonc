@@ -590,7 +590,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_Adrammelech",
         "input": "AddHealth",
-        "param": "1,65",
+        "param": "1,60",
         "delay": 0,
         "limit": -1
       }

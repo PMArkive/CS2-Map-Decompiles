@@ -82,7 +82,7 @@
         "target": "[PR#]Shemhazai_limit_hurt&0000",
         "input": "Enable",
         "param": "",
-        "delay": 3,
+        "delay": 1.75,
         "limit": 1
       },
       {
@@ -98,7 +98,7 @@
         "target": "[PR#]Shemhazai_limit_hurt&0000",
         "input": "Kill",
         "param": "",
-        "delay": 3.5,
+        "delay": 1.85,
         "limit": 1
       },
       {
@@ -106,7 +106,7 @@
         "target": "[PR#]Shemhazai_limit_part&0000",
         "input": "Kill",
         "param": "",
-        "delay": 3.5,
+        "delay": 2.2,
         "limit": 1
       }
     ]

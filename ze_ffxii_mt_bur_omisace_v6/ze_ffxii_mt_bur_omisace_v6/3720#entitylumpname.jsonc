@@ -758,6 +758,22 @@
         "param": "",
         "delay": 6.02,
         "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]zr_toggle_respawn",
+        "input": "Disable",
+        "param": "",
+        "delay": 8,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]zr_toggle_respawn",
+        "input": "Enable",
+        "param": "",
+        "delay": 12,
+        "limit": -1
       }
     ]
   },

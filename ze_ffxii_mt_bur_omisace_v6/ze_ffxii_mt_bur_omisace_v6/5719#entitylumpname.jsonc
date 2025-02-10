@@ -2442,6 +2442,14 @@
         "param": "[PR#]ct",
         "delay": 5,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Gabranth_boss2_Hitbox",
+        "input": "SetDamageFilter",
+        "param": "[PR#]ct",
+        "delay": 5.02,
+        "limit": -1
       }
     ]
   },
@@ -4802,7 +4810,7 @@
         "target": "[PR#]sound",
         "input": "StartSound",
         "param": "",
-        "delay": 3.92,
+        "delay": 3,
         "limit": -1
       },
       {
@@ -4810,7 +4818,7 @@
         "target": "[PR#]sound",
         "input": "SetSoundEventName",
         "param": "Ambient.ShemhazaiGunSoundExplosion",
-        "delay": 3.91,
+        "delay": 2.92,
         "limit": -1
       },
       {
@@ -4818,7 +4826,7 @@
         "target": "[PR#]sound",
         "input": "StopSound",
         "param": "",
-        "delay": 3.9,
+        "delay": 2.9,
         "limit": -1
       }
     ]

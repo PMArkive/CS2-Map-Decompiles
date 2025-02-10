@@ -650,7 +650,7 @@
         "target": "[PR#]sound",
         "input": "StartSound",
         "param": "",
-        "delay": 7.42,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -658,7 +658,7 @@
         "target": "[PR#]sound",
         "input": "SetSoundEventName",
         "param": "Ambient.ShemhazaiGunSoundExplosion",
-        "delay": 7.41,
+        "delay": 5.52,
         "limit": -1
       },
       {
@@ -690,7 +690,7 @@
         "target": "[PR#]sound",
         "input": "StopSound",
         "param": "",
-        "delay": 7.4,
+        "delay": 5.5,
         "limit": -1
       }
     ]

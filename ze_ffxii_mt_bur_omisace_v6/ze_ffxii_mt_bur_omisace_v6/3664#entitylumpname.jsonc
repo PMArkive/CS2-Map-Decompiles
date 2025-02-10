@@ -112,6 +112,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1.1",
+        "delay": 1,
+        "limit": -1
       }
     ]
   }
